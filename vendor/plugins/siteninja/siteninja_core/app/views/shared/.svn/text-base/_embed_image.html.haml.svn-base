@@ -1,0 +1,17 @@
+- image = Image.find(image_id)
+
+- if size
+  - if size == "small"
+    = link_to(tag(:img, :src => image.small_thumbnail, :class => "auto_image", :alt => image.image_title), image.image.url, :title => image.image_title, :class => "fancy")
+  -elsif size == "medium"
+    .images
+      = link_to(tag(:img, :src => image.thumbnail, :alt => image.image_title), image.image.url, :title => image.image_title, :class => "fancy")
+      - unless image.caption.blank?
+        .image-caption= image.caption
+  -elsif size == "large"
+    = tag(:img, :src => "#{image.featured}", :class => "large_image", :alt => image.image_title, :title => image.image_title)
+  -elsif size == "original"
+    = tag(:img, :src => "#{image.image}", :class => "large_image", :alt => image.image_title, :title => image.image_title)
+- else
+  = tag(:img, :src => "#{image.featured}", :class => "large_image", :alt => image.image_title, :title => image.image_title)
+

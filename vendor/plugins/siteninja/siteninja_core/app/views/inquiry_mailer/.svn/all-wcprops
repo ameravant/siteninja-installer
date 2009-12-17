@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/repository/!svn/ver/8004/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/inquiry_mailer
+END
+confirmation_to_user.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/repository/!svn/ver/8004/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/inquiry_mailer/confirmation_to_user.html.erb
+END
+notification_to_admin.erb
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/repository/!svn/ver/7505/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/inquiry_mailer/notification_to_admin.erb
+END

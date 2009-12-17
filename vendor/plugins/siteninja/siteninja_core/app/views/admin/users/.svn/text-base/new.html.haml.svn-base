@@ -1,0 +1,16 @@
+- content_for(:meta_title) { concat "Create a user" }
+
+%h1= yield(:meta_title)
+
+- form_for [:admin, @user], :html => { :onsubmit => "form_submitted()" } do |f|
+  = f.error_messages
+  %table{:cellspacing => 0}
+    = render :partial => "form", :locals => { :f => f }
+    %tr{:class => cycle('odd','even')}
+      %td Password
+      %td= f.text_field :password
+    %tr{:class => cycle('odd','even')}
+      %td Confirm Password
+      %td= f.text_field :password_confirmation
+  - fancy_submit admin_users_path do
+    = f.submit "Save new user"

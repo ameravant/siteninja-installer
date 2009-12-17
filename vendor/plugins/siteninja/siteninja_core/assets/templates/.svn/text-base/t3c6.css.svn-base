@@ -1,0 +1,46 @@
+
+/*
+Colors:
+#4B7D26 Link
+#225610 Link Visited
+#9ac79e Link Hover 
+#84c64d Heading
+#B5BB9E Heading 1 Border Bottom
+#8E7339 Menu
+#84c64d Submenu Outer
+#ffefef Submenu Link
+#FEF7D8 Submenu Link Hover
+#f3f4e6 Pre Content Outer Background
+#287786 Sidebar Box
+#5a922c Submenu Border Bottom
+*/
+
+@import url(t3.css);
+
+a { color: #4B7D26; }
+	a:visited { color: #225610; }
+	a:hover { color: #9ac79e }	
+
+h1, h2, h3 { color: #8E7339; }
+
+label:hover { background: #84c64d; }
+
+#menu-outer { background-image: url(t3c6.gif); }
+#menu-inner li a { color: #8E7339; }
+#menu-inner li.selected { background-image: url(t3c6.gif) !important;  }
+#menu-inner li.selected a { background-image: url(t3c6.gif) !important; }
+#menu-inner li:hover { background-image: url(t3c6.gif); }
+#menu-inner li a:hover { background-image: url(t3c6.gif); }
+.submenu-outer { background: #84c64d; border-bottom: 1px solid #5a922c; }
+.submenu-inner li a { color: #ffefef; }
+.submenu-inner li a:hover { color: #FEF7D8; }
+#pre-content-outer { background-color: #f3f4e6; background-image: url(t3c6.gif); border-top: 1px solid #FAFBEE; }	
+#home #smoothGallery { height: 300px !important; width: 550px !important; margin: 0 0 20px 0; }
+#content-outer { background-color: #FEFEFF; background-image: url(t3c6.gif); border-bottom: 1px solid #e5e7cb; }
+#content-outer a:hover, #pre-content-outer a:hover { background: #8E7339 }
+.sidebar-box a { color: #225610; }
+.sidebar-box a:hover { background: #8E7339; }
+.sidebar .submenu-inner li a { color: #287786; border-bottom: 1px solid #287786; }	
+#footer-outer { background: #84c64d; border-bottom: 1px solid #133664; }
+#footer-inner a { color: #fbf4c7; }
+#google-map { border: 1px solid #77a8c7; }

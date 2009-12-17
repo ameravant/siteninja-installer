@@ -1,0 +1,17 @@
+- unless @footer_pages.empty?
+  %ul#footer-menu
+    - for page in @footer_pages
+      - case page.permalink
+        - when "blog"
+          %li
+            = link_to @cms_config['site_settings']['blog_title'], "/#{path_safe(@cms_config['site_settings']['blog_title'])}"
+        - when "events"
+          %li
+            = link_to @cms_config['site_settings']['events_title'], "/#{path_safe(@cms_config['site_settings']['events_title'])}"
+        - when "links"
+          %li
+            = link_to @cms_config['site_settings']['links_title'], "/#{path_safe(@cms_config['site_settings']['links_title'])}"
+        - else
+          %li
+            = link_to page.title, "/#{page.permalink}"
+

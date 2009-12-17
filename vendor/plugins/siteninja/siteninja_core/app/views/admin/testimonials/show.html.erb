@@ -1,0 +1,24 @@
+<%- content_for :meta_title do -%><%#= h @testimonial.title %><%- end -%>
+
+<%- content_for :crumb do -%>
+  <%= link_to "Dashboard", "/admin" %> &gt;
+  <%= link_to "testimonials", admin_testimonials_path %> &gt;
+  <%= yield :meta_title %>
+<%- end -%>
+
+<h1><%= yield :meta_title %></h1>
+
+<div>
+  <span class="hmenu">
+    <%= icon "Gear", edit_admin_testimonial_path(@testimonial) %>
+    <%= link_to "Edit testimonial", edit_admin_testimonial_path(@testimonial) %>
+  </span>
+</div>
+
+<br/>
+<h2>Want to delete this testimonial?</h2>
+
+<div>
+  <%= icon "Trash", [:admin, @testimonial] %>
+  <%= link_to "Yes, delete this testimonial.", [:admin, @testimonial], :class => "red", :method => :delete, :confirm => "Really delete?" %>
+</div>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/script
+END
+txt2html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/script/txt2html
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/script/destroy
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/script/generate
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repository/!svn/ver/7833/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/images
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/repository/!svn/ver/6652/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/images/edit.html.erb
+END
+destroy.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/repository/!svn/ver/6648/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/images/destroy.js.rjs
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/repository/!svn/ver/6648/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/images/new.html.erb
+END
+index.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/repository/!svn/ver/7833/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/images/index.html.haml
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/repository/!svn/ver/7823/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/images/_form.html.erb
+END

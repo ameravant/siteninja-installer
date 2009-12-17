@@ -1,0 +1,9 @@
+!!! Traditional
+
+%html{html_attrs('en')}
+  %head
+    %meta{'http-equiv' => "Content-type", :content => "text/html; charset=utf-8"}
+    = stylesheet_link_tag "setup"
+  %body
+    #content
+      = yield

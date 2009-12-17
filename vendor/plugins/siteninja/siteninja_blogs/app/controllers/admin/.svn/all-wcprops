@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repository/!svn/ver/7818/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/controllers/admin
+END
+comments_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/repository/!svn/ver/7818/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/controllers/admin/comments_controller.rb
+END
+articles_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/repository/!svn/ver/7545/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/controllers/admin/articles_controller.rb
+END
+article_categories_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/repository/!svn/ver/7622/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/controllers/admin/article_categories_controller.rb
+END

@@ -1,0 +1,44 @@
+# The permissions listed here are used in role-restricted areas of site ninja. 
+
+# Pages Module
+pages: "Admin"
+testimonials: "Admin"
+
+# Articles Module
+article_categories: ["Admin", "Editor"]
+articles: ["Admin", "Editor", "Author", "Contributor", "Moderator"]
+comments: ["Admin", "Editor", "Author", "Moderator"]
+
+# Core Module
+admin: ["Admin", "Author", "Editor", "Moderator", "Contributor"]
+assets: "Admin"
+features: ["Admin", "Editor"]
+images: ["Admin", "Editor", "Author", "Contributor"]
+inquiries: "Admin"
+people: "Admin"
+person_groups: "Admin"
+settings: "Admin"
+testimonials: ["Admin", "Author", "Editor", "Contributor"]
+
+# Documents Module
+documents: "Admin"
+
+# Events Module
+event_prices: "Admin"
+events: "Admin"
+registrations: "Admin"
+
+# Image Galleries
+galleries: "Admin"
+
+# Links Module
+link_categories: "Admin"
+links: "Admin"
+
+# Newsletters Module
+newsletters: "Admin"
+newsletter_blasts: "Admin"
+
+# Store Module
+products: "Admin"
+orders: "Admin"

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/repository/!svn/ver/6231/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/views/comment_mailer
+END
+notification_to_author.erb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/repository/!svn/ver/6100/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/views/comment_mailer/notification_to_author.erb
+END
+notification_to_mentioned_commenter.erb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/repository/!svn/ver/6231/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/views/comment_mailer/notification_to_mentioned_commenter.erb
+END

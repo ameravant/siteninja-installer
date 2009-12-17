@@ -1,0 +1,11 @@
+- form_tag(request.path, :method => "get", :id => "search_form") do
+  = tag(:input, :id => "search", :name => "q", :type => "search", :size => "25", :value => (params[:q] ? params[:q] : nil), :autosave => "site-ninja.com", :results => 10)
+  = submit_tag "Search"
+  - unless params[:q].blank?
+    = link_to "clear search", request.path
+
+- content_for :head do
+  %script
+    Event.observe(window, 'load', function() {
+    $('search').select();
+    })

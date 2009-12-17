@@ -1,0 +1,77 @@
+<%-
+temp_page = @page
+page_tree = []
+top_page = nil
+
+while top_page.nil?
+  page_tree << temp_page.id
+  if temp_page.parent_id.nil?
+    top_page = temp_page
+  else
+    temp_page = @menu.detect { |menu_page| menu_page.id == temp_page.parent_id }
+  end
+end
+
+page_tree.reverse!
+-%>
+<div id="menu-outer"><div id="menu-middle"<%= " class=\"with-logo\"" if  @cms_config['website']['logo_position'] == "menu" %>>
+  <%- if @cms_config['website']['logo_position'] == "menu" -%>
+      <%- unless @settings.logo_file_name.blank? -%>
+        <%= link_to(image_tag(@settings.logo(:original), :alt => @cms_config['website']['name']), root_path, :id => "logo") %>
+      <%- else -%>
+        <%= link_to image_tag("/images/logo.png", :alt => @cms_config['website']['name']), root_path, :id => "logo" %>
+      <%- end -%>
+  <%- end -%>
+  <ul id="menu-inner">
+  <%- for page in @menu.reject { |menu_page| menu_page.parent_id or menu_page.hidden? } -%>
+    <%- case page.permalink -%>
+      <%- when "blog"-%>
+        <li <%= "class=\"selected\"" if top_page == page %>><%= link_to @cms_config['site_settings']['blog_title'], "/#{path_safe(@cms_config['site_settings']['blog_title'])}" %></li>
+      <%- when "events"-%>
+        <li <%= "class=\"selected\"" if top_page == page %>><%= link_to @cms_config['site_settings']['events_title'], "/#{path_safe(@cms_config['site_settings']['events_title'])}" %></li>
+      <%- when "links"-%>
+        <li <%= "class=\"selected\"" if top_page == page %>><%= link_to @cms_config['site_settings']['links_title'], "/#{path_safe(@cms_config['site_settings']['links_title'])}" %></li>
+      <%- else -%>
+        <li <%= "class=\"selected\"" if top_page == page %>><%= link_to page.title, "/#{page.permalink}" %></li>
+    <%- end -%>
+  <%- end -%>
+  </ul>
+</div></div>
+<%= clear %>
+<%- content_for :submenu do -%>
+<%= clear %>
+  <div class="submenu-outer">
+    <%- page_tree.each_with_index do |current_tree, i| -%>
+        <%- siblings = @menu.reject { |menu_page| menu_page.parent_id != current_tree or menu_page.hidden? } -%>
+        <%- unless siblings.empty? -%>
+          <%- if i == 1 and @cms_config['site_settings']['third_level_menu'] == "left" -%>
+            <%- content_for :side_column_2 do -%>
+              <ul class="submenu-inner">
+                   <%- for page in siblings -%>
+                      <%- case page.permalink -%>
+                        <%- when "blog"-%>
+                          <li <%= "class=\"selected\"" if top_page == page %>><%= link_to @cms_config['site_settings']['blog_title'], "/#{page.permalink}" %></li>
+                        <%- when "events"-%>
+                          <li <%= "class=\"selected\"" if top_page == page %>><%= link_to @cms_config['site_settings']['events_title'], "/#{page.permalink}" %></li>
+                        <%- when "links"-%>
+                          <li <%= "class=\"selected\"" if top_page == page %>><%= link_to @cms_config['site_settings']['links_title'], "/#{page.permalink}" %></li>
+                        <%- else -%>
+                          <li <%= "class=\"selected\"" if top_page == page %>><%= link_to page.title, "/#{page.permalink}" %></li>
+                      <%- end -%>
+                  <%- end -%>
+              </ul>
+              <%= clear %>
+            <%- end -%>
+          <%- else -%>
+            <div class="submenu-middle"><ul class="submenu-inner" id="submenu-<%= i+1 %>">
+              <%- for page in siblings -%>
+                <li><%= link_to page.title, "/#{page.permalink}" %></li>
+              <%- end -%>
+            </ul></div>
+          <%- end -%>
+        <%- end -%>
+    <%- end -%>
+  </div>
+  <%= clear %>
+<%- end -%>
+

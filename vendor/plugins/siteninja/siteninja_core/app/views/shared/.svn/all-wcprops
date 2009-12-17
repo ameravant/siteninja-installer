@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repository/!svn/ver/7916/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared
+END
+_embed_slideshow.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/repository/!svn/ver/6648/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_embed_slideshow.html.haml
+END
+_embed_image.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/repository/!svn/ver/7843/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_embed_image.html.haml
+END
+_embed_youtube.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/repository/!svn/ver/6566/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_embed_youtube.html.erb
+END
+_embed_vimeo.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/repository/!svn/ver/6565/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_embed_vimeo.html.erb
+END
+_image.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/repository/!svn/ver/7799/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_image.html.haml
+END
+_embed_testimonial.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/repository/!svn/ver/7916/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_embed_testimonial.html.haml
+END
+_search.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/repository/!svn/ver/6217/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_search.html.haml
+END
+_google_maps_includes.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/repository/!svn/ver/6221/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_google_maps_includes.html.erb
+END
+_image_box.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/repository/!svn/ver/7839/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_image_box.html.haml
+END
+_sharethis.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/repository/!svn/ver/6072/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/shared/_sharethis.html.haml
+END

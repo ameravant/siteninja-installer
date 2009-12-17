@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/siteninja_core/test/fixtures
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/siteninja_core/test/fixtures/settings.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/siteninja_core/test/fixtures/users.yml
+END
+emails.yml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/siteninja_core/test/fixtures/emails.yml
+END

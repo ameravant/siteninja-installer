@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/tasks
+END
+deployment.rake
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/tasks/deployment.rake
+END
+website.rake
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/tasks/website.rake
+END
+environment.rake
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/tasks/environment.rake
+END

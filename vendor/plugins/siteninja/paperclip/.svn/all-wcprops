@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip
+END
+paperclip.gemspec
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/paperclip.gemspec
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/Rakefile
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/LICENSE
+END
+README.rdoc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/README.rdoc
+END
+init.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/init.rb
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/.gitignore
+END

@@ -1,0 +1,13 @@
+%h2 Step 1
+%p First, we'll need some basic information.
+- form_for @setup, :url => "/setup/step_1" do |f|
+  %fieldset
+    = label_tag 'setup[website_name]', "Website Name"
+    = text_field_tag 'setup[website_name]', @setup['website']['name']
+    %br
+    = label_tag 'setup[website_domain]', "Domain" 
+    
+    = text_field_tag 'setup[website_domain]', @setup['website']['domain']
+    %span{:class => "small gray"}== (format: www.domain.com)
+    %br
+    = f.submit "Continue"

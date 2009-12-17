@@ -1,0 +1,3 @@
+- if @article.social_share?
+  #sharethis
+    %script{:type => "text/javascript", :src => "http://w.sharethis.com/button/sharethis.js\#publisher=#{@cms_config['keys']['sharethis']}&amp;type=website&amp;embeds=true"}

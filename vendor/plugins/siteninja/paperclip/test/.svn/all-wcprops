@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test
+END
+paperclip_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/paperclip_test.rb
+END
+processor_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/processor_test.rb
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/helper.rb
+END
+integration_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/integration_test.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/database.yml
+END
+thumbnail_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/thumbnail_test.rb
+END
+iostream_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/iostream_test.rb
+END
+storage_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/storage_test.rb
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/.gitignore
+END
+attachment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/attachment_test.rb
+END
+geometry_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/paperclip/test/geometry_test.rb
+END

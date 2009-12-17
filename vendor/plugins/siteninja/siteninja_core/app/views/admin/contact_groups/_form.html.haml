@@ -1,0 +1,8 @@
+= f.error_messages
+%table{:cellspacing => 0}
+  %tr{:class => cycle('odd','even')}
+    %td= f.label :name, "Name"
+    %td= f.text_field :name
+  %tr{:class => cycle('odd','even')}
+    %td= f.label :active, "Active?"
+    %td= f.check_box :active

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/repository/!svn/ver/8185/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/inquiries
+END
+create.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/repository/!svn/ver/7504/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/inquiries/create.html.haml
+END
+new.html.haml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/repository/!svn/ver/8185/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/inquiries/new.html.haml
+END

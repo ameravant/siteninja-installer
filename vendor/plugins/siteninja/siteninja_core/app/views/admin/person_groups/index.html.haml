@@ -1,0 +1,16 @@
+- if @groups.empty?
+  %h2 You do not have any groups yet.
+  %p.icon
+    = icon "Plus", new_admin_person_group_path
+    = link_to "Make your first group", new_admin_person_group_path
+- else
+  %p.icon
+    = icon "Plus", new_admin_person_group_path
+    = link_to "Create a new group", new_admin_person_group_path
+  %ul
+    -for group in @groups
+      %li{:class => "group", :id => "person_group_#{group.id}"}
+        = link_to icon "Write", edit_admin_person_group_path(group)
+        = link_to group.title.titleize, edit_admin_person_group_path(group)
+        %span.gray= pluralize group.people.size, 'member'
+        = trash_icon(group, admin_person_group_path(group), "#{group.title}")

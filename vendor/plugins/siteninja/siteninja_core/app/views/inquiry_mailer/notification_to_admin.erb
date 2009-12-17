@@ -1,0 +1,12 @@
+A new inquiry message was submitted.
+<br />
+Name:  <%= h @inquiry.name %><br />
+Email: <%= h @inquiry.email %><br />
+<%- unless @inquiry.phone.blank? -%>
+Phone: <%= h @inquiry.phone %><br />
+<%- end -%>
+
+Message:<br />
+
+<%= simple_format @inquiry.inquiry %>
+

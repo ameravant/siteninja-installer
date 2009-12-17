@@ -1,0 +1,21 @@
+<%-
+pretty_body = @confirmation_message
+pretty_body.gsub!(/\#(\S*)_image:(\S*)\#/) {|x| render(:partial => "/post_office/embed_image", :locals => {:image_id => $2, :size => $1})}
+pretty_body.gsub!('href="/', "href=\"#{$DOMAIN_PATH}")
+pretty_body.gsub!('src="/', "src=\"#{$DOMAIN_PATH}")
+-%>
+<div>
+  <%= "Hi %s" % @inquiry.name %>,
+  <%= pretty_body %>
+</div>
+  ______________________________________________
+  
+<div>
+ <p>Your original inquiry: <blockquote>"<%= @inquiry.inquiry %>"</blockquote></p>
+<div>
+<div>
+  <p>Email: <%= h @inquiry.email %></p>
+  <%- unless @inquiry.phone.blank? -%>
+   <p>Phone: <%= h @inquiry.phone %></p>
+  <%- end -%>
+</div>

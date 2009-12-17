@@ -1,0 +1,35 @@
+- content_for(:title) { concat "Users" }
+
+%h1 Users
+
+%div.box
+  .float-right= render :partial => "/shared/search"
+  %span.hmenu
+    = icon 'Plus', new_admin_user_path
+    = link_to 'Create a new user', new_admin_user_path
+
+- unless params[:q].blank?
+  %h2== Found #{pluralize @users.size, "user"}
+
+%p To change a user's password, click on the username you wish to edit.
+
+%table{ :cellspacing => 0 }
+  %thead
+    %tr
+      %th Login
+      %th Name
+      %th Email
+      %th Options
+  %tbody
+    - for user in @users
+      %tr{ :class => cycle('odd','even') }
+        %td
+          = icon 'Write', edit_admin_user_path(user)
+          = link_to h(user.login), edit_admin_user_path(user)
+        %td= h(user.name)
+        %td= mail_to user.email, nil, :encode => :hex
+        %td.gray
+          - if user.can_deactivate?
+            = link_to "Deactivate", admin_user_path(user), :method => :delete, :confirm => "Really deactivate #{h(user.login)}?"
+          - else
+            == #{icon "Lock"} Protected

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/engines/test/plugins/test_assets_with_assets_directory/assets/subfolder
+END
+file_in_subfolder.txt
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/engines/test/plugins/test_assets_with_assets_directory/assets/subfolder/file_in_subfolder.txt
+END

@@ -1,0 +1,34 @@
+- content_for(:title) { concat "Contacts" }
+
+%h1 Contacts
+
+%div.box
+  .float-right= render :partial => "/shared/search"
+  %span.hmenu
+    = icon 'Plus', new_admin_contact_path
+    = link_to 'Create a new contact', new_admin_contact_path
+  %span.hmenu
+    = icon 'Folder2', admin_contact_groups_path
+    = link_to 'View contact Groups', admin_contact_groups_path
+
+- unless params[:q].blank?
+  %h2== Found #{pluralize @contacts.size, "contact"}
+
+%p To change a contact's password, click on the contact you wish to edit.
+
+%table{ :cellspacing => 0 }
+  %thead
+    %tr
+      %th First Name
+      %th Last Name
+      %th Email      
+  %tbody
+    - for contact in @contacts
+      %tr[contact]{ :class => cycle('odd','even') }
+        %td
+          = icon 'Write', edit_admin_contact_path(contact)
+          = link_to h(contact.name), edit_admin_contact_path(contact)
+        %td= h(contact.first_name)
+        %td= h(contact.last_name)
+        %td= contact.email
+        %td= trash_icon(contact, admin_contact_path(contact), "#{h(contact.first_name)} #{h(contact.last_name)}")

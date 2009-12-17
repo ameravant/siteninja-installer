@@ -1,0 +1,20 @@
+%h1 Sign-up for any of our newsletters
+= error_messages_for :person
+- form_for @person do |f|
+  %dl
+    - form_attributes.each do |att|
+      %dt= f.label att
+      %dd= f.text_field att
+    %dt= f.label :state
+    %dd= select :person, :state, [['Select a State', 'None'], ['Alabama', 'AL'], ['Alaska', 'AK']] 
+    %dt= f.label :zip
+    %dd= f.text_field :zip  
+  -for group in @groups 
+    %p
+      = check_box_tag('person[person_group_ids][]', group.id, false, :id => "#{group.title}")
+      %label{:for=> "#{group.title}"}== Subscribe to #{group.title}
+    %p About this newsletter:
+    %span= truncate(group.description, :length => 100)
+  = clear
+  =f.submit "Subscribe!"
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/repository/!svn/ver/6177/siteninja/vendor/plugins/siteninja/faker/lib/faker
+END
+lorem.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/lib/faker/lorem.rb
+END
+name.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/lib/faker/name.rb
+END
+phone_number.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/lib/faker/phone_number.rb
+END
+address.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/lib/faker/address.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/lib/faker/version.rb
+END
+company.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/repository/!svn/ver/6177/siteninja/vendor/plugins/siteninja/faker/lib/faker/company.rb
+END
+internet.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/lib/faker/internet.rb
+END

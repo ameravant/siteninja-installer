@@ -1,0 +1,13 @@
+#inquiry_company {
+  display: none;
+  visibility: hidden;
+}
+div#blast-preview {
+	border: 3px solid #4C8A30;
+	padding: 15px;
+}
+
+.edit_group dd {
+	padding-left: 0;
+	margin: 7px 0 5px 0;
+}

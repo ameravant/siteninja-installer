@@ -1,0 +1,25 @@
+@import url('t4.css');
+
+body { color: #404040; }
+
+a { color: #1f496c; }
+a:visited { color: #1f496c; }
+a:hover { color: #74b039 }	
+h1, h2, h3 { color: #386e8a; }
+label:hover { background: #252b7a; color: #fff; }
+#header-outer { background: url(t4c4.gif) repeat-x center 32px; }
+#menu-outer { background: url(t4c4.gif) repeat-x center -63px; }
+#menu-inner li a { color: #1d3f66; border-left: 1px solid #e5e9f9; border-right: 1px solid #5c8eb4; }
+#menu-inner li.selected { background: url(t4c4.gif) repeat-x center -103px; }
+#menu-inner li a:hover { background: url(t4c4.gif) repeat-x center -143px; }
+#menu-inner li.selected a:hover { background: url(t4c4.gif) repeat-x center -103px; }
+#menu-inner li.selected a { color: #fff; }
+.submenu-outer { background: #334d60; }
+.submenu-inner li a { color: #fff; }
+#pre-content-outer { background: url(t4c4.gif) repeat-x center -183px; }
+#error, #notice { color: #fff; }
+#error { background: #b00; }
+#notice { background: #0b0; }
+#errorExplanation { border: 2px solid #f00; color: #f00; }
+#errorExplanation h2 { color: #fff; background-color: #f00; }
+#footer-inner { color: #575757; }

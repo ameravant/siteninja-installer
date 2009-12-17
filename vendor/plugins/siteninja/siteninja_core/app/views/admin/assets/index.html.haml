@@ -1,0 +1,23 @@
+- content_for :meta_title do
+  Assets
+
+%h1= large_icon('Folder2') + ' ' + yield(:meta_title).strip
+
+.box
+  .float-right= render :partial => "/shared/search"
+  = icon "Save"
+  = link_to "Upload a new asset", @owner ? [:new, :admin, @owner, :asset] : new_admin_asset_path
+  = clear
+
+- if params[:q].blank?
+  %br
+  %br
+- else
+  %h2== Found #{pluralize @all_assets.size, "asset"}.
+
+= render :partial => @assets
+= clear
+
+- if @assets.total_pages > 1
+  = will_paginate @assets
+

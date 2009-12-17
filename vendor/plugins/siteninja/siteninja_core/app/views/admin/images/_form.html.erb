@@ -1,0 +1,74 @@
+<%= error_messages_for "image" %>
+
+<table cellspacing="0">
+  <tr>
+    <td><%= f.label :title, "Alt title" %></td>
+    <td><%= f.text_field :title, :class => "big" %> <span class="small red">required (the alt title of an image is necessary for accessibility).</span></td>
+  </tr>
+  <tr>
+    <td><%= f.label :caption %></td>
+    <td><%= f.text_field :caption, :class => "big" %> <span class="small gray">optional (will be displayed under the image, on the page).</span></td>
+  </tr>
+  <tr>
+    <td><%= f.label :description %></td>
+    <td><%= f.text_area :description, :cols => "44", :rows => "5" %> <span class="small gray">optional (if filled in, the image will have a detail page).</span></td>
+  </tr>
+  <tr class="top">
+    <td><%= f.label :image %></td>
+    <td>
+      <%- unless @image.image_file_name.blank? -%>
+        <div style="margin-bottom: 1em;">
+          <%= link_to image_tag(@image.image.url(:small)), @image.image.url(:large), :rel => "lightbox" %>
+          <%= icon "Warning" %> Uploading a new image will replace this one.<br/>
+        </div>
+      <%- end -%>
+      <%= f.file_field :image %>
+    </td>
+  </tr>
+</table>
+
+<%- fancy_submit  [:admin, @owner] do -%>
+  <%= f.submit "Save image" %>
+<%- end -%>
+
+
+<h2>Optional Images</h2>
+<table cellspacing="0">
+  <tr class="top">
+    <td><%= f.label :featured_image %></td>
+    <td>
+      <%- unless @image.featured_image_file_name.blank? -%>
+        <div style="margin-bottom: 1em;">
+          <%= link_to image_tag(@image.featured_image.url(:small)), @image.featured_image.url(:large), :rel => "lightbox" %>
+          <%= icon "Warning" %> Uploading a new image will replace this one.<br/>
+        </div>
+      <%- end -%>
+      <%= f.file_field :featured_image %>
+      <p class="info">
+        If a file is uploaded, it will replace the default featured image generated from the main image. Image size should be proportional to <strong>550x300</strong> to avoid the image being cropped.
+      </p>
+    </td>
+  </tr>
+  <tr class="top">
+    <td><%= f.label :thumb_image %></td>
+    <td>
+      <%- unless @image.thumb_image_file_name.blank? -%>
+        <div style="margin-bottom: 1em;">
+          <%= link_to image_tag(@image.thumb_image.url(:small)), @image.thumb_image.url(:large), :rel => "lightbox" %>
+          <%= icon "Warning" %> Uploading a new image will replace this one.<br/>
+        </div>
+      <%- end -%>
+      <%= f.file_field :thumb_image %>
+      <p class="info">
+        If a file is uploaded, it will replace the default cropped thumb generated from the main image. Image size should be proportional to <strong>200x142</strong> to avoid the image being cropped.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<%- fancy_submit  [:admin, @owner] do -%>
+  <%= f.submit "Save image" %>
+<%- end -%>
+

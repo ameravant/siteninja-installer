@@ -1,0 +1,8 @@
+- content_for(:meta_title) { concat "Create a Contact" }
+
+%h1= yield(:meta_title)
+
+- form_for [:admin, @contact], :html => { :onsubmit => "form_submitted()" } do |f|
+  = render :partial => "form", :locals => { :f => f }
+  - fancy_submit admin_contacts_path do
+    = f.submit "Save new contact"

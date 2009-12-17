@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/repository/!svn/ver/7819/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/repository/!svn/ver/6661/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/edit.html.erb
+END
+destroy.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/repository/!svn/ver/6661/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/destroy.js.rjs
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/repository/!svn/ver/7819/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/index.html.erb
+END
+_testimonial_options.haml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/repository/!svn/ver/7542/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/_testimonial_options.haml
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/repository/!svn/ver/6661/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/repository/!svn/ver/6661/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/show.html.erb
+END
+restore.js.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/repository/!svn/ver/6661/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/restore.js.rjs
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/repository/!svn/ver/7819/siteninja/vendor/plugins/siteninja/siteninja_core/app/views/admin/testimonials/_form.html.erb
+END

@@ -1,0 +1,2 @@
+module TinymceHelper
+end

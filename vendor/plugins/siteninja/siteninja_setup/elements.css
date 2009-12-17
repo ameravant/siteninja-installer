@@ -1,0 +1,27 @@
+h1, h2, h3 {
+  line-height: 1.2em;
+  font-family: georgia, serif;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+
+a img { border: 0; }
+td form { margin: 0; }
+
+table td, table th { padding: 6px; }
+table thead th { text-align: left; color: #666; }
+table tr td, table tr th { border-bottom: 1px solid #ccc; }
+
+form table { width: auto; }
+form table td, form table th { padding: 10px; }
+
+label:hover { cursor: pointer; background: #333; color: #fff; }
+.contact_group_form { float: left; width: 150px;}
+
+fieldset {border: 0; padding: 0;}
+#template-form{font-size: .8em; line-height: 2em; float: right;}
+
+#pre-content-middle {min-height: 20px;}

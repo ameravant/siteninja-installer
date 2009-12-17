@@ -1,0 +1,26 @@
+- content_for :meta_title do
+  == Inquiry ##{@inquiry.id}
+
+%h1= yield(:meta_title).strip
+
+%table{ :cellspacing => "0" }
+  %tbody
+    %tr{ :class => cycle('odd', 'even') }
+      %td Name
+      %td= @inquiry.person ? link_to(h(@inquiry.name), [:edit, :admin, @inquiry.person]) : h(@inquiry.name)
+    %tr{ :class => cycle('odd', 'even') }
+      %td Email
+      %td= mail_to h(@inquiry.email), nil, :encode => :hex
+    %tr{ :class => cycle('odd', 'even') }
+      %td Phone
+      %td= h(@inquiry.phone)
+    %tr{ :class => cycle('odd', 'even') }
+      %td Received
+      %td
+        %span.hmenu= @inquiry.created_at.strftime("%A, %B %d, %Y at %I:%M %p %Z")
+        %span.gray== #{time_ago_in_words(@inquiry.created_at)} ago
+    %tr.top{ :class => cycle('odd', 'even') }
+
+%h2 Message
+
+= simple_format(h(@inquiry.inquiry))

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/test/test_helper.rb
+END
+test_faker_internet.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/test/test_faker_internet.rb
+END
+test_faker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/test/test_faker.rb
+END
+test_faker_name.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/repository/!svn/ver/6008/siteninja/vendor/plugins/siteninja/faker/test/test_faker_name.rb
+END

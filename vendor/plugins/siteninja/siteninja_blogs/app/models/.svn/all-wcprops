@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/repository/!svn/ver/7530/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/models
+END
+article_category.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/repository/!svn/ver/7530/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/models/article_category.rb
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repository/!svn/ver/6101/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/models/comment.rb
+END
+article.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repository/!svn/ver/7459/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/models/article.rb
+END
+comment_observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/repository/!svn/ver/6344/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/models/comment_observer.rb
+END
+comment_mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/repository/!svn/ver/7459/siteninja/vendor/plugins/siteninja/siteninja_blogs/app/models/comment_mailer.rb
+END

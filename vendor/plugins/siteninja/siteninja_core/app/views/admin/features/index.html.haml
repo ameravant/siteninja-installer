@@ -1,0 +1,39 @@
+- content_for :head do
+  %style{:type => "text/css", :media => "screen"}
+    ul.sortable { list-style: none; }
+    ul.sortable li { line-height: 36px; padding: 5px 0; border-bottom: 1px solid #ccc; }
+    div.featuredimages { width: 150px; float: left; }
+    div.featuredimages .icon { padding-left: 20px; margin-right: 20px; vertical-align: middle !important; }
+    div.title { width: 200px; float: left; }
+    div.type { width: 100px; float: left; }
+%h1
+  Reorder Homepage Features
+#reorder_status.gray.float-right{:style => "display: none"}
+  = spinner
+  Reordering features...
+  = clear
+%ul#features.sortable
+  - for feature in @features
+    %li{:id => "#{dom_id(feature)}"}
+      .featuredimages
+        - unless feature.featurable_type == "Image"
+          = image_tag("#{move_loc}", :class => "icon handle")
+          = image_tag(feature.featurable.images.sort_by(&:position).first.image.url(:thumb), :class => "icon") unless feature.featurable.images.empty?
+        - else
+          = image_tag("#{move_loc}", :class => "icon handle")
+          = image_tag(feature.featurable.image.url(:thumb), :class => "icon")
+      .title
+        - unless feature.featurable_type == "Image"
+          = link_to(feature.featurable.title, [:admin, feature.featurable, :images])
+        - else
+          = link_to(feature.featurable.title, [:edit, :admin, feature.featurable])
+      .type
+        = feature.featurable_type
+      - if feature.featurable.features_count > 0
+        = defeature_icon(feature.featurable, "/admin/#{feature.featurable_type.downcase}s/#{feature.featurable.to_param}/features/1", feature.featurable.title, "inline")
+        = feature_icon(feature.featurable, [:admin, feature.featurable, :features], feature.featurable.title, "none")
+      - else
+        = feature_icon(article, [:admin, feature.featurable, :features], feature.featurable.title, "inline")
+        = defeature_icon(article, "/admin/#{feature.featurable_type.downcase}s/#{feature.featurable.to_param}/features/1", feature.featurable.title, "none")
+      = clear
+  = sortable_element("features", :url => reorder_admin_features_path, :method => :put, :loading => "$('ajax_spinner').src='#{spinner_loc}'; $('reorder_status').show();", :success => "$('ajax_spinner').src='#{ok_loc}'", :failure => "$('ajax_spinner').src='#{exclamation_loc}'", :complete => visual_effect(:fade, "reorder_status", :delay => 1))

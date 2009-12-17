@@ -1,0 +1,12 @@
+%h1 Site Ninja Setup
+- case
+  - when params[:step] == "0"
+    %h2 Introduction
+    %p Welcome to the Site Ninja Setup. This simple tool will help you deploy a new Site Ninja site. Click "Next" to begin.
+    = link_to("Next", "/setup?step=1")
+  - when params[:step] == "1"
+    = render :partial => "step_1"
+  - when params[:step] == "2"
+    = render :partial => "step_2"
+  - when params[:step] == "3"
+    = render :partial => "step_3"

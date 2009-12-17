@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/engines/lib/engines/plugin
+END
+locator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/engines/lib/engines/plugin/locator.rb
+END
+migrator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/engines/lib/engines/plugin/migrator.rb
+END
+loader.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/engines/lib/engines/plugin/loader.rb
+END
+list.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/engines/lib/engines/plugin/list.rb
+END

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates
+END
+signup.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/signup.html.erb
+END
+unit_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/unit_test.rb
+END
+helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/helper.rb
+END
+authenticated_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/authenticated_test_helper.rb
+END
+login.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/login.html.erb
+END
+model_functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/model_functional_test.rb
+END
+signup_notification.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/signup_notification.html.erb
+END
+controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/controller.rb
+END
+authenticated_system.rb
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/authenticated_system.rb
+END
+observer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/observer.rb
+END
+unit_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/unit_spec.rb
+END
+migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/migration.rb
+END
+model_functional_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/model_functional_spec.rb
+END
+model_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/model_helper.rb
+END
+model.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/model.rb
+END
+functional_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/functional_test.rb
+END
+model_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/model_controller.rb
+END
+fixtures.yml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/fixtures.yml
+END
+mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/mailer_test.rb
+END
+activation.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/activation.html.erb
+END
+mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/mailer.rb
+END
+functional_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/repository/!svn/ver/5675/siteninja/vendor/plugins/siteninja/restful_authentication/generators/authenticated/templates/functional_spec.rb
+END

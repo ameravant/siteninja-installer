@@ -1,0 +1,10 @@
+%dl
+  %dt.big= f.label :title
+  %dd= f.text_field :title
+  %dt.big= f.label :description
+  %dd= f.text_area :description
+  %dt.big= f.label :public, "  "
+  %dd
+    = f.check_box :public
+    %span Make this a public group
+    %span.gray (Public Groups will be displayed on the Contact Us page of the public site)

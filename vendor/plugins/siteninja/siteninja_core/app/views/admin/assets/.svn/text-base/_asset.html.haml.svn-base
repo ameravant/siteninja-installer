@@ -1,0 +1,14 @@
+%div{:class => "mime#{cycle(nil, nil, ' endrow')}", :id => dom_id(asset)}
+  .thumb
+    - if asset.file_file_name.match(/[gif|png|jpeg|jpg]$/)
+      .thumb-clipped= link_to image_tag(asset.file.url(:thumb)), asset.file.url(:large), :class => "lightview", :rel => "set[assets]", :title => h(asset.name)
+    - else
+      = asset_file_type_icon(asset.file_file_name, asset.file.url)
+  .info
+    .info_link= link_to h(asset.name), (@owner ? [:edit, :admin, @owner, asset] : edit_admin_asset_path(asset))
+    .info_options
+      = icon "Write", (@owner ? [:edit, :admin, @owner, asset] : edit_admin_asset_path(asset))
+      = trash_icon(asset, admin_asset_path(asset), "#{asset.name}")
+      %span.small.gray== #{number_to_human_size(asset.file_file_size)}
+
+= cycle nil, nil, clear

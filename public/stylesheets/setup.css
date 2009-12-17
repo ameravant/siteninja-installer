@@ -1,0 +1,6 @@
+.small { font-size: .8em; }
+.gray { color: #666; }
+
+body { font-size: 15px; font-family: Tahoma, Arial, Sans-Serif; background: #999; color: #333; }
+  #content { width: 850px; margin: 0 auto; padding: 20px; background: #fff; }
+  fieldset label { display: block; float: left; width: 100px; margin: 0 10px 0 0; font-size: .8em; }
