@@ -1,2 +1,20 @@
 %h2 Step 3
-= @setup['modules']['members']
+%p Now, we need to know the database info.
+- form_for @setup, :url => "/setup/step_3" do |f|
+  %fieldset
+    = label_tag 'setup[website_environment]', "Website Environment"
+    = text_field_tag 'setup[website_environment]', @setup['website']['environment']
+    %h3 Database Setup
+    = label_tag 'db[production_domain]', "Database Domain"
+    = text_field_tag 'db[production_domain]', @db['production']['domain']
+    %br
+    = label_tag 'db[production_database]', "Database Name"
+    = text_field_tag 'db[production_database]', @db['production']['database']
+    %br
+    = label_tag 'db[production_username]', "Database Username"
+    = text_field_tag 'db[production_database]', @db['production']['database']
+    %br
+    = label_tag 'db[production_password]', "Database Password"
+    = text_field_tag 'db[production_password]', @db['production']['password']
+    %p This is the final step of the set up process. Once you click "Finish", setup files will be deleted and Site Ninja will be installed. Once this is completed, be sure to visit the "Settings" area of admin to finish customizing the site.
+    = f.submit "Finish"

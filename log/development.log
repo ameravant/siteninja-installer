@@ -3282,3 +3282,284 @@ Rendering template within layouts/application
 Rendering setup/index
 Rendered setup/_step_2 (31.3ms)
 Completed in 39ms (View: 37, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:08:25) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:08:27) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.map) on line #14 of app/views/setup/_step_1.html.haml:
+11:     %br
+12:     = label_tag 'setup[website_template]', "Website Template" 
+13:     = select('setup[website_template]', @setup['website']['template'], @templates.map{|template| [template, template] })
+14:     %br
+15:     = f.submit "Continue"
+
+    app/views/setup/_step_1.html.haml:14:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `call'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `form_for'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:167:in `form_for'
+    app/views/setup/_step_1.html.haml:3:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:8:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (156.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:09:10) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (75.0ms)
+Completed in 82ms (View: 80, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:09:17) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.8ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:10:00) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (7.1ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:10:01) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.2ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:10:24) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+
+ActionView::TemplateError (undefined local variable or method `setup' for #<ActionView::Base:0x10361b800>) on line #15 of app/views/setup/_step_1.html.haml:
+12:     = label_tag 'setup[website_template]', "Website Template" 
+13:     - templates = ["t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c3", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6", "t5c7"]
+14:     = select('setup[website_template]', setup['website']['template'], templates.map{|template| [template, template] })
+15:     %br
+16:     = f.submit "Continue"
+
+    app/views/setup/_step_1.html.haml:15:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `call'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `form_for'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:167:in `form_for'
+    app/views/setup/_step_1.html.haml:3:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:8:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (67.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:10:34) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.1ms)
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:10:45) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+
+ActionView::TemplateError (wrong number of arguments (2 for 3)) on line #15 of app/views/setup/_step_1.html.haml:
+12:     = label_tag 'setup[website_template]', "Website Template" 
+13:     - templates = ["t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c3", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6", "t5c7"]
+14:     = select('setup[website_template]', templates.map{|template| [template, template] })
+15:     %br
+16:     = f.submit "Continue"
+
+    app/views/setup/_step_1.html.haml:15:in `select'
+    app/views/setup/_step_1.html.haml:15:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `call'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `form_for'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:167:in `form_for'
+    app/views/setup/_step_1.html.haml:3:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:8:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:10:51) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (5.5ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:11:28) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (5.0ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:11:47) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (5.4ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:12:08) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-17 14:13:02) [PUT]
+  Parameters: {"commit"=>"Continue", "authenticity_token"=>"oCa7BtBjBovR6P+Hp1NXaRIiEjEjLvUtxedpFQclLS0=", "setup"=>{"website_name"=>"Test Site", "website"=>{"template"=>"t3c5"}, "website_domain"=>"www.test.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 2060ms (DB: 0) | 302 Found [http://localhost/setup/step_1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:13:04) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (8.0ms)
+Completed in 123ms (View: 121, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:14:03) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+
+ActionView::TemplateError (undefined local variable or method `setup' for #<ActionView::Base:0x10367a300>) on line #15 of app/views/setup/_step_1.html.haml:
+12:     = label_tag 'setup[website_template]', "Website Template" 
+13:     - templates = ["t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c3", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6", "t5c7"]
+14:     = select(setup[:website], :template, templates.map{|template| [template, template] })
+15:     %br
+16:     = f.submit "Continue"
+
+    app/views/setup/_step_1.html.haml:15:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `call'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:161:in `form_for'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `call'
+    haml (2.2.2) lib/haml/helpers.rb:542:in `haml_bind_proc'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:167:in `form_for'
+    app/views/setup/_step_1.html.haml:3:in `_run_haml_app47views47setup47_step_146html46haml_locals_object_step_1'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:8:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (72.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:14:08) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.2ms)
+Completed in 104ms (View: 100, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-17 14:14:29) [PUT]
+  Parameters: {"commit"=>"Continue", "authenticity_token"=>"oCa7BtBjBovR6P+Hp1NXaRIiEjEjLvUtxedpFQclLS0=", "setup"=>{"website_name"=>"Test Site", "website"=>{"template"=>"t3c5"}, "website_domain"=>"www.test.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 1948ms (DB: 0) | 302 Found [http://localhost/setup/step_1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:14:31) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (5.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:17:15) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (7.4ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-17 14:17:17) [PUT]
+  Parameters: {"commit"=>"Continue", "authenticity_token"=>"oCa7BtBjBovR6P+Hp1NXaRIiEjEjLvUtxedpFQclLS0=", "template"=>{"id"=>"t3c2"}, "setup"=>{"website_name"=>"Test Site", "website_domain"=>"www.test.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 2024ms (DB: 0) | 302 Found [http://localhost/setup/step_1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:17:19) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (6.4ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-17 14:17:27) [PUT]
+  Parameters: {"commit"=>"Continue", "authenticity_token"=>"oCa7BtBjBovR6P+Hp1NXaRIiEjEjLvUtxedpFQclLS0=", "template"=>{"id"=>"t3c5"}, "setup"=>{"website_name"=>"Test Site", "website_domain"=>"www.test.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 2115ms (DB: 0) | 302 Found [http://localhost/setup/step_1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-17 14:17:29) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (2.6ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=2]

@@ -22,12 +22,12 @@ features:
   event_registration: true
 website: 
   logo_position: top
-  name: Site Ninja CMS
+  name: Test Site
   demo_message: 
   icon_domain: http://www.site-ninja.com
-  domain: demo.site-ninja.com
+  domain: www.test.com
   demo: true
-  template: demo
+  template: t3c5
 site_settings: 
   event_title: Event
   blog_title: Ninja Blog

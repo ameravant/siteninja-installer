@@ -1,7 +1,6 @@
 class SetupController < ApplicationController
   before_filter :cms_config
   def index
-    @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     unless params[:step]
       params[:step] = "0"
     end    
@@ -9,6 +8,8 @@ class SetupController < ApplicationController
   
   def step_1
     @setup['website']['name'] = params[:setup][:website_name]
+    @setup['website']['domain'] = params[:setup][:website_domain]
+    @setup['website']['template'] = params[:template][:id]
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rm public/index.html")
     system("rake rails:template LOCATION=step_1.rb")
@@ -27,11 +28,24 @@ class SetupController < ApplicationController
     params[:setup][:features_feature_box] ? @setup['features']['feature_box'] = true : @setup['features']['feature_box'] = false
     params[:setup][:features_testimonials] ? @setup['features']['testimonials'] = true : @setup['features']['testimonials'] = false
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
-    ystem("rake rails:template LOCATION=step_2.rb")
+    system("rake rails:template LOCATION=step_2.rb")
     redirect_to "/setup?step=3"
+  end
+  
+  def step_3
+    @db['production']['domain'] = params[:db][:production_domain]
+    @db['production']['database'] = params[:db][:production_database]
+    @db['production']['username'] = params[:db][:production_username]
+    @db['production']['password'] = params[:db][:production_password]
+    @setup['website']['environment'] = params[:setup][:website_environment]
+    File.open("#{RAILS_ROOT}/config/database.yml", 'w') { |f| YAML.dump(@db, f) }
+    File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
+    system("rake rails:template LOCATION=step_3.rb")
+    redirect_to "/"
   end
   
   def cms_config
     @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
+    @db = YAML::load_file("#{RAILS_ROOT}/config/database.yml")
   end
 end
