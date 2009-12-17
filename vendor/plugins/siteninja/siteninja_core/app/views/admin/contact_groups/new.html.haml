@@ -1,8 +1,0 @@
-- content_for(:meta_title) { concat "Create a Contact Group" }
-
-%h1= yield(:meta_title)
-
-- form_for [:admin, @contact_group], :html => { :onsubmit => "form_submitted()" } do |f|
-  = render :partial => "form", :locals => { :f => f }
-  - fancy_submit admin_contact_groups_path do
-    = f.submit "Save"

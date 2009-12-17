@@ -1,8 +1,0 @@
-%h2 Make a new group
-= error_messages_for :group
-%fieldset
-  - form_for [:admin, @group], :url => {:action => 'create'} do |f|
-    = render :partial => 'form', :locals => {:f => f}
-    = f.submit "Save group"
-
-= link_to "Add new contacts", new_admin_person_path

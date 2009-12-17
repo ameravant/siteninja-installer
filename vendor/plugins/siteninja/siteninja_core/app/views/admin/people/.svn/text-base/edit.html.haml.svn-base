@@ -1,5 +1,0 @@
-%h1 Update a person
-
-%fieldset
-  = render :partial => 'form'
-

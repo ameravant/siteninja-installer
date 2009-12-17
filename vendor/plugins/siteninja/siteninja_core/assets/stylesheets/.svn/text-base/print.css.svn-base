@@ -1,7 +1,0 @@
-#menu-inner { display: none; }
-#features { display: none; }
-#footer-menu { display: none; }
-.submenu-outer { display: none; }
-.sidebar { display: none; }
-.auto_video { display: none; }
-a img { border: 0; }

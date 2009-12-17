@@ -1,8 +1,0 @@
-- content_for :meta_title do
-  == Edit #{@asset.name}
-
-%h1
-  Edit Asset
-
-- form_for (@owner ? [:admin, @owner, @asset] : [:admin, @asset]), :html => { :multipart => true, :method => :put, :onsubmit => "form_submitted();" } do |f|
-  = render :partial => "form", :locals => { :f => f }

@@ -1,8 +1,0 @@
-.big { font-size: 1.3em !important; }
-.bigger { font-size: 1.6em !important; line-height: 1.6em !important; }
-.small { font-size: .85em !important; }
-.red { color: #f00 !important; }
-.green { color: #83c127 !important; }
-a.green:hover { background-color: #83C127 !important; color: #fff !important; }
-.gray { color: #777 !important; }
-a.gray:hover { background-color: #777 !important; color: #fff !important; }

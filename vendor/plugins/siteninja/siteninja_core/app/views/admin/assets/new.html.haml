@@ -1,7 +1,0 @@
-- content_for(:title) { concat "New Asset" }
-
-%h1
-  Upload a New Asset
-
-- form_for (@owner ? [:admin, @owner, @asset] : [:admin, @asset]), :html => { :multipart => true, :onsubmit => "form_submitted('Uploading your file, please wait...')" } do |f|
-  = render :partial => "form", :locals => { :f => f }

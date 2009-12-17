@@ -1,6 +1,0 @@
-@import url(/stylesheets/simple_classes.css);
-@import url(/stylesheets/elements.css);
-
-body { margin: 10px; text-align: left; }
-
-div, p, td, ul, ol { line-height: 1.5em; }

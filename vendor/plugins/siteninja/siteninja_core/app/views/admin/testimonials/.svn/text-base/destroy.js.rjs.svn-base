@@ -1,2 +1,0 @@
-page.visual_effect :fade, dom_id(@testimonial), :duration => 1
-
