@@ -5,14 +5,14 @@
     = label_tag 'setup[website_environment]', "Website Environment"
     = text_field_tag 'setup[website_environment]', @setup['website']['environment']
     %h3 Database Setup
-    = label_tag 'db[production_domain]', "Database Domain"
-    = text_field_tag 'db[production_domain]', @db['production']['domain']
+    = label_tag 'db[production_server]', "Database Server"
+    = text_field_tag 'db[production_server]', @db['production']['server']
     %br
     = label_tag 'db[production_database]', "Database Name"
     = text_field_tag 'db[production_database]', @db['production']['database']
     %br
     = label_tag 'db[production_username]', "Database Username"
-    = text_field_tag 'db[production_database]', @db['production']['database']
+    = text_field_tag 'db[production_username]', @db['production']['username']
     %br
     = label_tag 'db[production_password]', "Database Password"
     = text_field_tag 'db[production_password]', @db['production']['password']
