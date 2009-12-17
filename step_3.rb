@@ -11,6 +11,14 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv *.css #{RAILS_ROOT}/public/stylesheets"
 end
 
+run "echo 'map.from_plugin :siteninja_links' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['links']
+run "echo 'map.from_plugin :siteninja_events' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['events']
+run "echo 'map.from_plugin :siteninja_newsletters' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['newsletters']
+run "echo 'map.from_plugin :siteninja_store' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['product']
+run "echo 'map.from_plugin :siteninja_galleries' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['galleries']
+run "echo 'map.from_plugin :siteninja_documents' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['documents']
+run "echo 'map.from_plugin :siteninja_pages # Must be last! \n end' >> #{RAILS_ROOT}/config/routes.rb"
+
 run "script/generate plugin_migration"
 if setup['website']['environment'] == "production"
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=production"
@@ -18,4 +26,5 @@ if setup['website']['environment'] == "production"
 else
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
   run "mongrel_rails restart"
+  run "touch tmp/restart.txt"
 end
