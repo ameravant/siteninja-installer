@@ -41,6 +41,8 @@ class SetupController < ApplicationController
     File.open("#{RAILS_ROOT}/config/database.yml", 'w') { |f| YAML.dump(@db, f) }
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rake rails:template LOCATION=step_3.rb")
+    system("touch tmp/restart.txt")
+    system("mongrel_rails restart")
     redirect_to "/"
   end
   

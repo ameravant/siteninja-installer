@@ -26,7 +26,7 @@ website:
   demo_message: 
   icon_domain: http://www.site-ninja.com
   domain: www.test.com
-  demo: true
+  demo: false
   template: t3c5
 site_settings: 
   event_title: Event
