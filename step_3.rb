@@ -13,6 +13,8 @@ end
 run "script/generate plugin_migration"
 if setup['website']['environment'] == "production"
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=production"
+  run "touch tmp/restart.txt"
 else
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
+  run "mongrel_rails restart"
 end
