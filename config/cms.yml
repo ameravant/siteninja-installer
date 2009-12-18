@@ -1,39 +1,39 @@
 --- 
-keys: 
-  sharethis: 998f13df-36bb-4d5b-96fc-c750d3a55a99
-  google_maps: ABQIAAAAcFCYQRnwVUthPL-ySCSjJBSLDG_2ULvcs8_kz7lLyWlTqMYI6BQ3Mk_WENuT5q-vBi1wjshbLJ7aoQ
 modules: 
   blog: true
   documents: false
-  events: false
-  store: true
   galleries: false
-  newsletters: true
-  pages: true
-  version: 1.0.0
+  store: true
+  events: false
   product: true
-  members: false
+  version: 1.0.0
+  pages: true
+  newsletters: true
   links: true
+  members: false
+keys: 
+  sharethis: 998f13df-36bb-4d5b-96fc-c750d3a55a99
+  google_maps: ABQIAAAAcFCYQRnwVUthPL-ySCSjJBSLDG_2ULvcs8_kz7lLyWlTqMYI6BQ3Mk_WENuT5q-vBi1wjshbLJ7aoQ
 development_keys: 
   google_maps: ABQIAAAAcFCYQRnwVUthPL-ySCSjJBTJQa0g3IQ9GZqIMmInSLzwtGDKaBS8HXDFpTZcTkemWroqwX691T1xpg
-features: 
-  testimonials: true
-  feature_box: true
-  event_registration: true
 website: 
-  logo_position: top
   name: Test Site
+  logo_position: top
   demo_message: 
   icon_domain: http://www.site-ninja.com
   domain: www.test.com
   demo: false
-  template: t3c5
+  template: t3c2
+features: 
+  testimonials: true
+  feature_box: true
+  event_registration: true
 site_settings: 
   event_title: Event
   blog_title: Ninja Blog
   file_up_size: 20
   article_title: Ninja P0st
-  links_title: Directory Listing
-  events_title: Calendar
   third_level_menu: left
+  events_title: Calendar
+  links_title: Directory Listing
   link_title: Resource

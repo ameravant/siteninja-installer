@@ -1,6 +1,6 @@
 %h2 Step 2
 %p Next, let us know what Site Ninja modules and features this site will be using.
-- form_for @setup, :url => "/setup/step_2" do |f|
+%form{:action => "/setup/step_2"}
   %fieldset
     = label_tag 'setup[modules_blog]', "Blog"
     = check_box_tag 'setup[modules_blog]', @setup['modules']['blog'], @setup['modules']['blog']
@@ -32,4 +32,4 @@
     = label_tag 'setup[features_feature_box]', "Feature Box"
     = check_box_tag 'setup[features_feature_box]', @setup['features']['feature_box'], @setup['features']['feature_box']
     %br
-    = f.submit "Continue"
+    = submit_tag "Continue"

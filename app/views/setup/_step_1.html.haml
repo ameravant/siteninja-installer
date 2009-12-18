@@ -1,6 +1,6 @@
 %h2 Step 1
 %p First, we'll need some basic information.
-- form_for @setup, :url => "/setup/step_1" do |f|
+%form{:action => "/setup/step_1"}
   %fieldset
     = label_tag 'setup[website_name]', "Website Name"
     = text_field_tag 'setup[website_name]', @setup['website']['name']
@@ -13,4 +13,4 @@
     - templates = ["t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c3", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6", "t5c7"]
     = select(:template, :id, templates.map{|template| [template, template] })
     %br
-    = f.submit "Continue"
+    = submit_tag "Continue"

@@ -1,6 +1,8 @@
 class SetupController < ApplicationController
   before_filter :cms_config
   def index
+    @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
+    @db = YAML::load_file("#{RAILS_ROOT}/config/database.yml")
     unless params[:step]
       params[:step] = "0"
     end    
