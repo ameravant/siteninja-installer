@@ -1,5 +1,10 @@
 run "rm public/index.html"
 inside('vendor/plugins/siteninja') do
-  run "svn co http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/acts_as_taggable_on_steroids http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/ar_mailer http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/engines http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/faker http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/fu-fu http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/haml http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/paperclip http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/permalink_fu http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/restful_authentication http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/will_paginate http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/tiny_mce http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/siteninja_blogs http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/siteninja_core http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/siteninja_pages http://66.103.153.150:86/svn/repository/siteninja/vendor/plugins/siteninja/siteninja_setup"
-  run "echo Please choose what options you would like to populate this site with."
+  run "get clone git://github.com/ameravant/siteninja_pages.git"
+  run "get clone git://github.com/ameravant/siteninja_blog.git"
+  run "get clone git://github.com/ameravant/siteninja_core.git"
+  run "get clone git://github.com/ameravant/siteninja_setup.git"
+end
+inside('vendor/plugins') do
+  run "get clone git://github.com/ameravant/siteninja_plugins.git"
 end
