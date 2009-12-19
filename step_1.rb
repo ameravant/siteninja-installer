@@ -9,3 +9,4 @@ inside('vendor/plugins') do
   run "git clone git://github.com/ameravant/siteninja_plugins.git"
   run "mv siteninja_plugins/* siteninja/"
 end
+run "script/plugin install git://github.com/mislav/will_paginate.git"
