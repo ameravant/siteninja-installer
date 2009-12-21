@@ -18,13 +18,14 @@ run "echo 'map.from_plugin :siteninja_store' >> #{RAILS_ROOT}/config/routes.rb" 
 run "echo 'map.from_plugin :siteninja_galleries' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['galleries']
 run "echo 'map.from_plugin :siteninja_documents' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['documents']
 run "echo 'map.from_plugin :siteninja_pages # Must be last! \n end' >> #{RAILS_ROOT}/config/routes.rb"
-
+run "rm db/migrate/*"
+run "rake db:drop db:create"
 run "script/generate plugin_migration"
 if setup['website']['environment'] == "production"
-  run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=production"
+  run "rake db:migrate db:populate_min RAILS_ENV=production"
   run "touch tmp/restart.txt"
 else
-  run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
+  run "rake db:populate_min RAILS_ENV=development"
   run "mongrel_rails restart"
 end
 
