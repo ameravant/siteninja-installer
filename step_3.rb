@@ -22,10 +22,10 @@ run "rm db/migrate/*"
 run "rake db:drop db:create"
 run "script/generate plugin_migration"
 if setup['website']['environment'] == "production"
-  run "rake db:migrate db:populate_min RAILS_ENV=production"
+  run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=production"
   run "touch tmp/restart.txt"
 else
-  run "rake db:populate_min RAILS_ENV=development"
+  run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
   run "mongrel_rails restart"
 end
 
@@ -33,3 +33,4 @@ run "rm step_1.rb"
 run "rm step_2.rb"
 run "rm step_3.rb"
 run "rm -r app/views/setup"
+rum "rm config/routes-setup-backup.rb"
