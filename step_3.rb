@@ -26,5 +26,9 @@ if setup['website']['environment'] == "production"
 else
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
   run "mongrel_rails restart"
-  run "touch tmp/restart.txt"
 end
+
+run "rm step_1.rb"
+run "rm step_2.rb"
+run "rm step_3.rb"
+run "rm -r app/views/setup"
