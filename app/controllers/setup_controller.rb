@@ -35,7 +35,7 @@ class SetupController < ApplicationController
   end
   
   def step_3
-    @db['production']['domain'] = params[:db][:production_domain]
+    @db['production']['host'] = params[:db][:production_host]
     @db['production']['database'] = params[:db][:production_database]
     @db['production']['username'] = params[:db][:production_username]
     @db['production']['password'] = params[:db][:production_password]

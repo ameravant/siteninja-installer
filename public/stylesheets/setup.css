@@ -1,6 +1,34 @@
+h1, h2, h3 { font-family: Georgia, "Times New Roman", Serif; color: #3f72a5; margin: 10px 0; clear: both; font-weight: normal; }
+h1 { margin: 20px 0; }
+a { color: #27619c; }
+  a:hover { color: #3e80c2; }
+  a img { border: 0; }
 .small { font-size: .8em; }
 .gray { color: #666; }
+.next { background: url(../images/next.png) no-repeat; width: 150px; height: 50px; line-height: 50px; text-align: center; display: block; color: #fff; font-size: 1em; font-weight: bold; border: 0; text-decoration: none; margin: 30px 0 30px -10px; }
+a.next:hover { color: #fff; }
+.clear { clear: both; }
+p { color: #607285; font-size: 1.2em; margin: 20px 0 30px; font-family: Georgia, "Times New Roman", Serif; }
 
-body { font-size: 15px; font-family: Tahoma, Arial, Sans-Serif; background: #999; color: #333; }
-  #content { width: 850px; margin: 0 auto; padding: 20px; background: #fff; }
-  fieldset label { display: block; float: left; width: 100px; margin: 0 10px 0 0; font-size: .8em; }
+body { font-size: 16px; font-family: Tahoma, Arial, Sans-Serif; background: #e5eff9; color: #333; margin: 0; }
+  #header { background: #fff url(../images/header-bg.gif) repeat-x bottom; border-bottom: 1px solid #6f9fd0; }
+    #logo { width: 850px; margin: 0 auto; padding: 20px; }
+  #content-wrapper { border-top: 1px solid #fff; }
+    #content { width: 850px; margin: 0 auto; padding: 0 20px; }
+  fieldset { border: 0; margin: 0; padding: 0; }
+  fieldset label { display: block; float: left; width: 200px; margin: 0 10px 0 0; font-size: 1.2em; }
+  .checkboxes { clear: both; height: inherit; }
+  .checkboxes input { margin: 0 20px 10px 0; vertical-align: middle; }
+  .checkboxes label { display: inline; float: none; width: inherit; }
+  fieldset input { font-size: 1.2em; }
+  fieldset div { margin: 0 0 10px 0; clear: both; height: 40px; }
+  #steps-wrapper { background: #1d4267; color: #6F9FD0; height: 80px; border-top: #0a253f 1px solid; border-bottom: 1px solid #6f9fd0;}
+  #steps { list-style: none; margin: 0; padding: 0; clear: both; width: 850px; margin: 0 auto; color: ; }
+    #steps li { display: block; float: left; margin: 10px 20px 20px 0; width: 190px; text-align: lfet; font-size: 1.4em;  font-weight: bold; }
+    #steps .small { font-size: .6em; }
+      #steps a { text-decoration: none; color: #c8e3ff; }
+      #steps a:hover { color: #fff; }
+      #steps a.selected { color: #9be42f; }
+    #steps .deploy { }
+    
+#copyright { font-size: .8em; color: #808e9d; width: 850px; margin: 0 auto; padding: 40px 0; }

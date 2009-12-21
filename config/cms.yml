@@ -5,11 +5,11 @@ modules:
   galleries: false
   store: true
   events: false
-  product: true
+  product: false
   version: 1.0.0
   pages: true
-  newsletters: true
-  links: true
+  newsletters: false
+  links: false
   members: false
 keys: 
   sharethis: 998f13df-36bb-4d5b-96fc-c750d3a55a99
@@ -17,15 +17,15 @@ keys:
 development_keys: 
   google_maps: ABQIAAAAcFCYQRnwVUthPL-ySCSjJBTJQa0g3IQ9GZqIMmInSLzwtGDKaBS8HXDFpTZcTkemWroqwX691T1xpg
 website: 
-  name: Site Ninja Setup
+  name: New Site Ninja Site
   logo_position: top
   demo_message: 
   icon_domain: http://www.site-ninja.com
-  domain: www.test.com
+  domain: www.domain.com
   demo: false
   template: t3c5
 features: 
-  testimonials: true
+  testimonials: false
   feature_box: true
   event_registration: true
 site_settings: 

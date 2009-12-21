@@ -4484,3 +4484,2470 @@ Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-18 15:34:34) [GET]
   Parameters: {"commit"=>"Continue", "template"=>{"id"=>"t3c2"}, "setup"=>{"website_name"=>"Test Site", "website_domain"=>"www.test.com"}}
 Redirected to http://localhost:3000/setup?step=2
 Completed in 91271ms (DB: 0) | 302 Found [http://localhost/setup/step_1?setup%5Bwebsite_name%5D=Test+Site&setup%5Bwebsite_domain%5D=www.test.com&template%5Bid%5D=t3c2&commit=Continue]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:17:45) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 83ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:19:15) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:21:06) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:21:16) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:21:23) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:22:42) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:25:29) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:25:52) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:26:34) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:26:49) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:27:36) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:30:56) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:31:15) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:31:52) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:32:03) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:32:27) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 72ms (View: 69, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:32:33) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (92.0ms)
+Completed in 99ms (View: 97, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:32:59) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:33:07) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:33:44) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:15) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:24) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:33) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:41) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:44) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:53) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:54) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:34:58) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.2ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:35:06) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:35:09) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:35:11) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:35:27) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:36:02) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:36:06) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.6ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:36:15) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:36:40) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:37:05) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.5ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:37:22) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.4ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:37:29) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:38:15) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.8ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:38:16) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.3ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:38:31) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:38:56) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:39:02) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.3ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:39:13) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:39:18) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.3ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:39:28) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.8ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-21 13:39:41) [GET]
+  Parameters: {"commit"=>"Continue", "template"=>{"id"=>"t3c2"}, "setup"=>{"website_name"=>"New Site Ninja Site", "website_domain"=>"www.domain.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 14382ms (DB: 0) | 302 Found [http://localhost/setup/step_1?setup%5Bwebsite_name%5D=New+Site+Ninja+Site&setup%5Bwebsite_domain%5D=www.domain.com&template%5Bid%5D=t3c2&commit=Continue]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:39:55) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (28.2ms)
+Completed in 43ms (View: 40, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:40:38) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (10.9ms)
+Completed in 22ms (View: 16, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:41:03) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.5ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:41:26) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:41:41) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.5ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:42:15) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:42:22) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:42:46) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:42:51) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:43:03) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (0.9ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:44:06) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.3ms)
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:44:28) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 71ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#step_2 (for 127.0.0.1 at 2009-12-21 13:45:05) [GET]
+  Parameters: {"commit"=>"Continue", "setup"=>{"features_feature_box"=>"true", "modules_blog"=>"true"}}
+Redirected to http://localhost:3000/setup?step=3
+Completed in 1036ms (DB: 0) | 302 Found [http://localhost/setup/step_2?setup%5Bmodules_blog%5D=true&setup%5Bfeatures_feature_box%5D=true&commit=Continue]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:45:06) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (25.1ms)
+Completed in 34ms (View: 32, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:49:41) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.5ms)
+Completed in 27ms (View: 23, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:50:13) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.6ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:50:25) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.6ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:50:30) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.7ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:50:41) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.6ms)
+Completed in 80ms (View: 77, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:52:30) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:53:10) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.6ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:53:42) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (2.9ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:54:13) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.6ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:54:32) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.6ms)
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:55:13) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.1ms)
+Completed in 18ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:56:12) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (2.9ms)
+Completed in 72ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:56:48) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.3ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:57:00) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.4ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:57:05) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.3ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:57:24) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.7ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:57:33) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.4ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:57:57) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:58:01) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.4ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:58:10) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (5.2ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:58:20) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.0ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:58:31) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.9ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:59:08) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (3.1ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 13:59:59) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:00:04) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.8ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:00:25) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (1.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:00:30) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (2.6ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:00:36) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.8ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:02:41) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.4ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:02:56) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.7ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:03:16) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.4ms)
+Completed in 72ms (View: 69, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:03:26) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.7ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:03:32) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.9ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:04:03) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.3ms)
+Completed in 14ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:04:20) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.8ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:05:53) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.2ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:07:32) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:08:22) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:08:32) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:08:47) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:08:55) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:09:26) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:09:46) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:09:50) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:11:01) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.8ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:11:41) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.3ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:12:06) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.1ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:13:33) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:13:49) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:13:55) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:13:59) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:14:41) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.8ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:15:00) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.8ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-21 14:15:16) [GET]
+  Parameters: {"commit"=>"Continue", "template"=>{"id"=>"t3c5"}, "setup"=>{"website_name"=>"New Site Ninja Site", "website_domain"=>"www.domain.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 2085ms (DB: 0) | 302 Found [http://localhost/setup/step_1?setup%5Bwebsite_name%5D=New+Site+Ninja+Site&setup%5Bwebsite_domain%5D=www.domain.com&template%5Bid%5D=t3c5&commit=Continue]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:15:18) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#step_2 (for 127.0.0.1 at 2009-12-21 14:15:55) [GET]
+  Parameters: {"commit"=>"Continue", "setup"=>{"features_feature_box"=>"true", "modules_blog"=>"true"}}
+Redirected to http://localhost:3000/setup?step=3
+Completed in 550ms (DB: 0) | 302 Found [http://localhost/setup/step_2?setup%5Bmodules_blog%5D=true&setup%5Bfeatures_feature_box%5D=true&commit=Continue]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:15:55) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (4.2ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:16:23) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:18:18) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.5ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:18:43) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:18:51) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:19:03) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:19:12) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:19:18) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:19:44) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:22:48) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:23:20) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.5ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:25:59) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.2ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:26:47) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.3ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:27:09) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.4ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:28:02) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:28:07) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:28:48) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:29:38) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (0.9ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:29:56) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (0.9ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:30:23) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:30:30) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:30:46) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:30:56) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 75ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:31:02) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:31:46) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:32:02) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:32:40) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.5ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:33:08) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:33:23) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 66ms (View: 64, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:33:28) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:33:59) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:34:40) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:35:48) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.7ms)
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:36:43) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+ERROR: compiling _run_haml_app47views47setup47index46html46haml RAISED compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:3: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=1", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:7: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=2", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:11: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=3", (:class => "selected" if params[:step] =...
+                              ^
+Function body:           def _run_haml_app47views47setup47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+_hamlout.push_text("<ul id='steps'>\n", 1, false); if params[:step] == "1" or params[:step] == "2" or params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 1<br/><span class=\"small\">General</span>", "/setup?setup=1", (:class => "selected" if params[:step] == "1"))
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 1<br/><span class=\\\"small\\\">General</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end; if params[:step] == "2" or params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 2<br/><span class=\"small\">Modules &amp; Features</span>", "/setup?setup=2", (:class => "selected" if params[:step] == "2"))
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 2<br/><span class=\"small\">Modules &amp; Features</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end; if params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 3<br/><span class=\"small\">Database</span>", "/setup?setup=3", (:class => "selected" if params[:step] == "3"))
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 3<br/><span class=\"small\">Database</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end;
+
+
+
+_hamlout.push_text("  <li class='deploy'>\n    Finish\n    <br />\n    <span class='small'>Deploy CMS</span>\n  </li>\n</ul>\n", -1, false); case;
+ when params[:step] == "0";
+
+
+_hamlout.push_text("<h1>Introduction</h1>\n<p>Welcome to the Site Ninja Installation. This simple tool will guide you through the deployment of a new Site Ninja site.</p>\n#{haml_temp =  link_to("Start", "/setup?step=1", :class => "next")
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "1";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_1"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "2";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_2"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "3";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_3"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:32:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:3: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=1", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:7: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=2", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:11: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=3", (:class => "selected" if params[:step] =...
+                              ^) on line #3 of app/views/setup/index.html.haml:
+1: %ul#steps
+2:   - if params[:step] == "1" or params[:step] == "2" or params[:step] == "3"
+3:     %li= link_to("Step 1<br/><span class=\"small\">General</span>", "/setup?setup=1", (:class => "selected" if params[:step] == "1"))
+4:   - else
+5:     %li== Step 1<br/><span class=\"small\">General</span>
+6:   - if params[:step] == "2" or params[:step] == "3"
+
+    app/views/setup/index.html.haml:32:in `compile!'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (98.8ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:37:07) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+ERROR: compiling _run_haml_app47views47setup47index46html46haml RAISED compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:3: syntax error, unexpected kIF_MOD, expecting ')'
+...up=1", :class => "selected" if params[:step] == "1")
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:3: syntax error, unexpected ')', expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:7: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=2", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:11: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=3", (:class => "selected" if params[:step] =...
+                              ^
+Function body:           def _run_haml_app47views47setup47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+_hamlout.push_text("<ul id='steps'>\n", 1, false); if params[:step] == "1" or params[:step] == "2" or params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 1<br/><span class=\"small\">General</span>", "/setup?setup=1", :class => "selected" if params[:step] == "1")
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 1<br/><span class=\\\"small\\\">General</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end; if params[:step] == "2" or params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 2<br/><span class=\"small\">Modules &amp; Features</span>", "/setup?setup=2", (:class => "selected" if params[:step] == "2"))
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 2<br/><span class=\"small\">Modules &amp; Features</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end; if params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 3<br/><span class=\"small\">Database</span>", "/setup?setup=3", (:class => "selected" if params[:step] == "3"))
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 3<br/><span class=\"small\">Database</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end;
+
+
+
+_hamlout.push_text("  <li class='deploy'>\n    Finish\n    <br />\n    <span class='small'>Deploy CMS</span>\n  </li>\n</ul>\n", -1, false); case;
+ when params[:step] == "0";
+
+
+_hamlout.push_text("<h1>Introduction</h1>\n<p>Welcome to the Site Ninja Installation. This simple tool will guide you through the deployment of a new Site Ninja site.</p>\n#{haml_temp =  link_to("Start", "/setup?step=1", :class => "next")
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "1";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_1"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "2";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_2"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "3";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_3"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:32:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:3: syntax error, unexpected kIF_MOD, expecting ')'
+...up=1", :class => "selected" if params[:step] == "1")
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:3: syntax error, unexpected ')', expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:7: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=2", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:11: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=3", (:class => "selected" if params[:step] =...
+                              ^) on line #3 of app/views/setup/index.html.haml:
+1: %ul#steps
+2:   - if params[:step] == "1" or params[:step] == "2" or params[:step] == "3"
+3:     %li= link_to("Step 1<br/><span class=\"small\">General</span>", "/setup?setup=1", :class => "selected" if params[:step] == "1")
+4:   - else
+5:     %li== Step 1<br/><span class=\"small\">General</span>
+6:   - if params[:step] == "2" or params[:step] == "3"
+
+    app/views/setup/index.html.haml:32:in `compile!'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (36.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:37:41) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+ERROR: compiling _run_haml_app47views47setup47index46html46haml RAISED compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:7: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=2", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:11: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=3", (:class => "selected" if params[:step] =...
+                              ^
+Function body:           def _run_haml_app47views47setup47index46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+_hamlout.push_text("<ul id='steps'>\n", 1, false); if params[:step] == "1" or params[:step] == "2" or params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 1<br/><span class=\"small\">General</span>", "/setup?setup=1", :class => params[:step] == "1" ? "selected" : "")
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 1<br/><span class=\\\"small\\\">General</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end; if params[:step] == "2" or params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 2<br/><span class=\"small\">Modules &amp; Features</span>", "/setup?setup=2", (:class => "selected" if params[:step] == "2"))
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 2<br/><span class=\"small\">Modules &amp; Features</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end; if params[:step] == "3";
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = link_to("Step 3<br/><span class=\"small\">Database</span>", "/setup?setup=3", (:class => "selected" if params[:step] == "3"))
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false); else;
+_hamlout.push_text("  <li>#{_hamlout.adjust_tabs(1); haml_temp = "Step 3<br/><span class=\"small\">Database</span>"
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</li>\n", 0, false);end;
+
+
+
+_hamlout.push_text("  <li class='deploy'>\n    Finish\n    <br />\n    <span class='small'>Deploy CMS</span>\n  </li>\n</ul>\n", -1, false); case;
+ when params[:step] == "0";
+
+
+_hamlout.push_text("<h1>Introduction</h1>\n<p>Welcome to the Site Ninja Installation. This simple tool will guide you through the deployment of a new Site Ninja site.</p>\n#{haml_temp =  link_to("Start", "/setup?step=1", :class => "next")
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "1";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_1"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "2";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_2"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false); when params[:step] == "3";
+_hamlout.push_text("#{haml_temp =  render :partial => "step_3"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:32:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:7: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=2", (:class => "selected" if params[:step] =...
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:11: syntax error, unexpected tASSOC, expecting ')'
+..., "/setup?setup=3", (:class => "selected" if params[:step] =...
+                              ^) on line #7 of app/views/setup/index.html.haml:
+4:   - else
+5:     %li== Step 1<br/><span class=\"small\">General</span>
+6:   - if params[:step] == "2" or params[:step] == "3"
+7:     %li= link_to("Step 2<br/><span class=\"small\">Modules &amp; Features</span>", "/setup?setup=2", (:class => "selected" if params[:step] == "2"))
+8:   - else
+9:     %li== Step 2<br/><span class="small">Modules &amp; Features</span>
+10:   - if params[:step] == "3"
+
+    app/views/setup/index.html.haml:32:in `compile!'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (37.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:38:00) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (2.2ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:38:02) [GET]
+  Parameters: {"setup"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?setup=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:38:03) [GET]
+  Parameters: {"setup"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?setup=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:38:08) [GET]
+  Parameters: {"setup"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/setup?setup=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:38:19) [GET]
+  Parameters: {"setup"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/setup?setup=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:38:35) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.2ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-21 14:38:36) [GET]
+  Parameters: {"setup"=>"2"}
+
+ActionController::RoutingError (No route matches "/step" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-21 14:38:53) [GET]
+  Parameters: {"setup"=>"2"}
+
+ActionController::RoutingError (No route matches "/step" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:38:59) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (0.9ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:39:00) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.0ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:39:09) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (5.6ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:39:54) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (1.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:40:58) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 76ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:42:32) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:43:30) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:47:26) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:47:38) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.8ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:47:45) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:48:12) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 84ms (View: 81, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:48:50) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:48:55) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:49:23) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:50:07) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:50:23) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:50:34) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:51:04) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:51:17) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:51:27) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:51:52) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.8ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:52:57) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:53:23) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (1.3ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:53:41) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:53:54) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.8ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:54:11) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (1.4ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:54:40) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (1.1ms)
+Completed in 123ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:54:59) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (2.2ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:55:02) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:56:00) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:56:04) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.2ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:56:08) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.4ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:56:27) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:56:33) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:56:51) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 63ms (View: 61, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:57:23) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:57:55) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:58:09) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.2ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:58:39) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:58:42) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:58:51) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:58:53) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:58:55) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:59:15) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 14:59:18) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:01) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:05) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-21 15:00:07) [GET]
+  Parameters: {"commit"=>"Step 2", "template"=>{"id"=>"t3c2"}, "setup"=>{"website_name"=>"New Site Ninja Site", "website_domain"=>"www.domain.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 979ms (DB: 0) | 302 Found [http://localhost/setup/step_1?setup%5Bwebsite_name%5D=New+Site+Ninja+Site&setup%5Bwebsite_domain%5D=www.domain.com&template%5Bid%5D=t3c2&commit=Step+2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:08) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.3ms)
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:16) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 90ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:22) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:26) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:40) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:42) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:46) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:00:48) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:01:30) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.2ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#step_1 (for 127.0.0.1 at 2009-12-21 15:01:37) [GET]
+  Parameters: {"commit"=>"Step 2", "template"=>{"id"=>"t3c5"}, "setup"=>{"website_name"=>"New Site Ninja Site", "website_domain"=>"www.domain.com"}}
+Redirected to http://localhost:3000/setup?step=2
+Completed in 2361ms (DB: 0) | 302 Found [http://localhost/setup/step_1?setup%5Bwebsite_name%5D=New+Site+Ninja+Site&setup%5Bwebsite_domain%5D=www.domain.com&template%5Bid%5D=t3c5&commit=Step+2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:01:39) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.2ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:02:28) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:03:08) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+
+ActionView::TemplateError (undefined method `year' for Date:Class) on line #33 of app/views/layouts/application.html.haml:
+30:       #content
+31:         = yield
+32:     #copyright
+33:       == &copy; 2009 &mdash #{Date.year}
+
+    app/views/layouts/application.html.haml:33:in `_run_haml_app47views47layouts47application46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (44.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:03:42) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 97ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:04:01) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:04:28) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:04:42) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:04:58) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:05:10) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:05:20) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:06:19) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:06:27) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:06:44) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.0ms)
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:07:28) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:07:29) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.2ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:08:44) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 64ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:08:46) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (1.1ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:09:20) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.0ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:10:29) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.5ms)
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:10:57) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+ERROR: compiling _run_haml_app47views47setup47_step_246html46haml_locals_object_step_2 RAISED compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_2.html.haml:39: syntax error, unexpected kENSURE, expecting kEND
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_2.html.haml:41: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_haml_app47views47setup47_step_246html46haml_locals_object_step_2(local_assigns)
+            old_output_buffer = output_buffer;step_2 = local_assigns[:step_2];object = local_assigns[:object];;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;; content_for :title do "Step 2 - General Info";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_hamlout.push_text("<h1>Step 2 &mdash; Modules and Features Selection</h1>\n<p>Next, let us know what Site Ninja modules and features this site will be using.</p>\n<form action='/setup/step_2'>\n  <fieldset>\n    <div class='checkboxes'>\n      #{_hamlout.adjust_tabs(3); haml_temp =  check_box_tag 'setup[modules_blog]', @setup['modules']['blog'], @setup['modules']['blog']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_blog]', "Blog"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[modules_documents]', @setup['modules']['documents'], @setup['modules']['documents']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_documents]', "Documents"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[modules_events]', @setup['modules']['events'], @setup['modules']['events']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_events]', "Events"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[modules_product]', @setup['modules']['product'], @setup['modules']['product']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_product]', "Product Catalog"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[modules_galleries]', @setup['modules']['galleries'], @setup['modules']['galleries']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_galleries]', "Image Galleries"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[modules_newsletters]', @setup['modules']['newsletters'], @setup['modules']['newsletters']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_newsletters]', "Newsletters"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[modules_members]', @setup['modules']['members'], @setup['modules']['members']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_members]', "Members"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[modules_links]', @setup['modules']['links'], @setup['modules']['links']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[modules_links]', "Links"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[features_testimonials]', @setup['features']['testimonials'], @setup['features']['testimonials']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[features_testimonials]', "Testimonials"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n      #{haml_temp =  check_box_tag 'setup[features_feature_box]', @setup['features']['feature_box'], @setup['features']['feature_box']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  label_tag 'setup[features_feature_box]', "Feature Box"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <br />\n    </div>\n    #{_hamlout.adjust_tabs(-1); haml_temp =  submit_tag "Step 3", :class => "next"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </fieldset>\n</form>\n", -2, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmyers/git/siteninja-setup/app/views/setup/_step_2.html.haml:41:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers.rb:96:in `non_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_2.html.haml:39: syntax error, unexpected kENSURE, expecting kEND
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_2.html.haml:41: syntax error, unexpected $end, expecting kEND) on line #39 of app/views/setup/_step_2.html.haml:
+36:       %br
+37:     = submit_tag "Step 3", :class => "next"
+
+    app/views/setup/_step_2.html.haml:41:in `compile!'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (111.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:12:07) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (4.6ms)
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:12:12) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.0ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:12:16) [GET]
+  Parameters: {"step"=>"3"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_3 (7.1ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:12:37) [GET]
+  Parameters: {"step"=>"2"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_2 (1.1ms)
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/setup?step=2]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-21 15:12:40) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (2.0ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]

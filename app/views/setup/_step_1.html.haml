@@ -1,16 +1,18 @@
-%h2 Step 1
+- content_for :title do
+  Step 1 - General Info
+%h1 Step 1 &mdash; General Info
 %p First, we'll need some basic information.
 %form{:action => "/setup/step_1"}
   %fieldset
-    = label_tag 'setup[website_name]', "Website Name"
-    = text_field_tag 'setup[website_name]', @setup['website']['name']
-    %br
-    = label_tag 'setup[website_domain]', "Domain" 
-    = text_field_tag 'setup[website_domain]', @setup['website']['domain']
-    %span{:class => "small gray"}== (format: www.domain.com)
-    %br
+    %div
+      = label_tag 'setup[website_name]', "Website Name"
+      = text_field_tag 'setup[website_name]', @setup['website']['name']
+    %div
+      = label_tag 'setup[website_domain]', "Domain" 
+      = text_field_tag 'setup[website_domain]', @setup['website']['domain']
+      %span{:class => "small gray"}== (format: www.domain.com)
     = label_tag 'setup[website_template]', "Website Template" 
     - templates = ["t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c3", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6", "t5c7"]
     = select(:template, :id, templates.map{|template| [template, template] })
     %br
-    = submit_tag "Continue"
+    = submit_tag "Step 2", :class => "next"

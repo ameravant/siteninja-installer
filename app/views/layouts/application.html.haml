@@ -3,7 +3,33 @@
 %html{html_attrs('en')}
   %head
     %meta{'http-equiv' => "Content-type", :content => "text/html; charset=utf-8"}
+    %title
+      == #{yield :title} - Site Ninja CMS Installation
     = stylesheet_link_tag "setup"
   %body
-    #content
-      = yield
+    #header
+      #logo
+        = link_to(image_tag("installation.png", :alt => "Site Ninja Installation"), "/")
+    #steps-wrapper
+      %ul#steps
+        - if params[:step] == "1" or params[:step] == "2" or params[:step] == "3"
+          %li= link_to("Step 1<br/><span class=\"small\">General</span>", "/setup?step=1", :class => params[:step] == "1" ? "selected" : "")
+        - else
+          %li== Step 1<br/><span class="small">General</span>
+        - if params[:step] == "2" or params[:step] == "3"
+          %li= link_to("Step 2<br/><span class=\"small\">Modules &amp; Features</span>", "/setup?step=2", :class => params[:step] == "2" ? "selected" : "")
+        - else
+          %li== Step 2<br/><span class="small">Modules &amp; Features</span>
+        - if params[:step] == "3"
+          %li= link_to("Step 3<br/><span class=\"small\">Database</span>", "/setup?step=3", :class => params[:step] == "3" ? "selected" : "")
+        - else
+          %li== Step 3<br/><span class="small">Database</span>
+        %li.deploy
+          Finish
+          %br
+          %span.small Deploy CMS
+    #content-wrapper
+      #content
+        = yield
+    #copyright
+      == Site Ninja &copy; 2008-#{Date.today.year.to_s} by #{link_to("Ameravant Web Studio", "http://www.ameravant.com")}.

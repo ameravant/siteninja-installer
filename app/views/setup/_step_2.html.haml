@@ -1,35 +1,38 @@
-%h2 Step 2
+- content_for :title do
+  Step 2 - Modules and Features Selection
+%h1 Step 2 &mdash; Modules and Features Selection
 %p Next, let us know what Site Ninja modules and features this site will be using.
 %form{:action => "/setup/step_2"}
   %fieldset
-    = label_tag 'setup[modules_blog]', "Blog"
-    = check_box_tag 'setup[modules_blog]', @setup['modules']['blog'], @setup['modules']['blog']
-    %br
-    = label_tag 'setup[modules_documents]', "Documents"
-    = check_box_tag 'setup[modules_documents]', @setup['modules']['documents'], @setup['modules']['documents']
-    %br
-    = label_tag 'setup[modules_events]', "Events"
-    = check_box_tag 'setup[modules_events]', @setup['modules']['events'], @setup['modules']['events']
-    %br
-    = label_tag 'setup[modules_product]', "Product Catalog"
-    = check_box_tag 'setup[modules_product]', @setup['modules']['product'], @setup['modules']['product']
-    %br
-    = label_tag 'setup[modules_galleries]', "Image Galleries"
-    = check_box_tag 'setup[modules_galleries]', @setup['modules']['galleries'], @setup['modules']['galleries']
-    %br
-    = label_tag 'setup[modules_newsletters]', "Newsletters"
-    = check_box_tag 'setup[modules_newsletters]', @setup['modules']['newsletters'], @setup['modules']['newsletters']
-    %br
-    = label_tag 'setup[modules_members]', "Members"
-    = check_box_tag 'setup[modules_members]', @setup['modules']['members'], @setup['modules']['members']
-    %br
-    = label_tag 'setup[modules_links]', "Links"
-    = check_box_tag 'setup[modules_links]', @setup['modules']['links'], @setup['modules']['links']
-    %br
-    = label_tag 'setup[features_testimonials]', "Testimonials"
-    = check_box_tag 'setup[features_testimonials]', @setup['features']['testimonials'], @setup['features']['testimonials']
-    %br
-    = label_tag 'setup[features_feature_box]', "Feature Box"
-    = check_box_tag 'setup[features_feature_box]', @setup['features']['feature_box'], @setup['features']['feature_box']
-    %br
-    = submit_tag "Continue"
+    .checkboxes
+      = check_box_tag 'setup[modules_blog]', @setup['modules']['blog'], @setup['modules']['blog']
+      = label_tag 'setup[modules_blog]', "Blog"
+      %br
+      = check_box_tag 'setup[modules_documents]', @setup['modules']['documents'], @setup['modules']['documents']
+      = label_tag 'setup[modules_documents]', "Documents"
+      %br
+      = check_box_tag 'setup[modules_events]', @setup['modules']['events'], @setup['modules']['events']
+      = label_tag 'setup[modules_events]', "Events"
+      %br
+      = check_box_tag 'setup[modules_product]', @setup['modules']['product'], @setup['modules']['product']
+      = label_tag 'setup[modules_product]', "Product Catalog"
+      %br
+      = check_box_tag 'setup[modules_galleries]', @setup['modules']['galleries'], @setup['modules']['galleries']
+      = label_tag 'setup[modules_galleries]', "Image Galleries"
+      %br
+      = check_box_tag 'setup[modules_newsletters]', @setup['modules']['newsletters'], @setup['modules']['newsletters']
+      = label_tag 'setup[modules_newsletters]', "Newsletters"
+      %br
+      = check_box_tag 'setup[modules_members]', @setup['modules']['members'], @setup['modules']['members']
+      = label_tag 'setup[modules_members]', "Members"
+      %br
+      = check_box_tag 'setup[modules_links]', @setup['modules']['links'], @setup['modules']['links']
+      = label_tag 'setup[modules_links]', "Links"
+      %br
+      = check_box_tag 'setup[features_testimonials]', @setup['features']['testimonials'], @setup['features']['testimonials']
+      = label_tag 'setup[features_testimonials]', "Testimonials"
+      %br
+      = check_box_tag 'setup[features_feature_box]', @setup['features']['feature_box'], @setup['features']['feature_box']
+      = label_tag 'setup[features_feature_box]', "Feature Box"
+      %br
+    = submit_tag "Step 3", :class => "next"

@@ -1,20 +1,24 @@
-%h2 Step 3
-%p Now, we need to know the database info.
+- content_for :title do
+  Step 3 - Database Setup
+%h1 Step 3 &mdash; Database Setup 
+%p Now, we just need to know the database info.
 %form{:action => "/setup/step_3"}
   %fieldset
-    = label_tag 'setup[website_environment]', "Website Environment"
-    = text_field_tag 'setup[website_environment]', @setup['website']['environment']
-    %h3 Database Setup
-    = label_tag 'db[production_server]', "Database Server"
-    = text_field_tag 'db[production_server]', @db['production']['server']
-    %br
-    = label_tag 'db[production_database]', "Database Name"
-    = text_field_tag 'db[production_database]', @db['production']['database']
-    %br
-    = label_tag 'db[production_username]', "Database Username"
-    = text_field_tag 'db[production_username]', @db['production']['username']
-    %br
-    = label_tag 'db[production_password]', "Database Password"
-    = text_field_tag 'db[production_password]', @db['production']['password']
+    %div
+      = label_tag 'setup[website_environment]', "Environment"
+      - environments = ["production", "development"]
+      = select(:template, :id, environments.map{|environment| [environment, environment] })
+    %div
+      = label_tag 'db[production_host]', "Database Host"
+      = text_field_tag 'db[production_host]', @db['production']['host']
+    %div
+      = label_tag 'db[production_database]', "Database Name"
+      = text_field_tag 'db[production_database]', @db['production']['database']
+    %div
+      = label_tag 'db[production_username]', "Database Username"
+      = text_field_tag 'db[production_username]', @db['production']['username']
+    %div
+      = label_tag 'db[production_password]', "Database Password"
+      = text_field_tag 'db[production_password]', @db['production']['password']
     %p This is the final step of the set up process. Once you click "Finish", setup files will be deleted and Site Ninja will be installed. Once this is completed, be sure to visit the "Settings" area of admin to finish customizing the site.
-    = submit_tag "Finish"
+    = submit_tag "Finish", :class => "next"
