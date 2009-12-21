@@ -7,7 +7,7 @@
     %div
       = label_tag 'setup[website_environment]', "Environment"
       - environments = ["production", "development"]
-      = select(:template, :id, environments.map{|environment| [environment, environment] })
+      = select('setup[website]', :environment, environments.map{|environment| [environment, environment] })
     %div
       = label_tag 'db[production_host]', "Database Host"
       = text_field_tag 'db[production_host]', @db['production']['host']
