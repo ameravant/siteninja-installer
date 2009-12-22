@@ -22,6 +22,7 @@ run "rm db/migrate/*"
 run "rake db:drop db:create"
 run "script/generate plugin_migration"
 if setup['website']['environment'] == "production"
+  run "rm -r vendor/plugins/siteninja_plugins"
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=production"
   run "touch tmp/restart.txt"
 else
