@@ -21,7 +21,7 @@ website:
   logo_position: top
   demo_message: 
   icon_domain: http://www.site-ninja.com
-  domain: www.domain.com
+  domain: domain.com
   demo: false
   template: t3c5
 features: 
