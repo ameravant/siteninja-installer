@@ -39,7 +39,7 @@ class SetupController < ApplicationController
     @db['production']['database'] = params[:db][:production_database]
     @db['production']['username'] = params[:db][:production_username]
     @db['production']['password'] = params[:db][:production_password]
-    @setup['website']['environment'] = params[:setup][:website_environment]
+    @setup['website']['environment'] = params['setup[website]'][:environment]
     File.open("#{RAILS_ROOT}/config/database.yml", 'w') { |f| YAML.dump(@db, f) }
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rake rails:template LOCATION=step_3.rb")

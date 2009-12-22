@@ -29,7 +29,7 @@ else
   run "mongrel_rails restart"
 end
 run "rm -r app/views/setup"
-rum "rm config/routes-setup-backup.rb"
+run "rm config/routes-setup-backup.rb"
 run "rm step_1.rb"
 run "rm step_2.rb"
 run "rm step_3.rb"
