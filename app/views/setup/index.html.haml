@@ -1,11 +1,15 @@
 - case
   - when params[:step] == "0"
+    - @title = "Introduction"
     %h1 Introduction
     %p Welcome to the Site Ninja Installation. This simple tool will guide you through the deployment of a new Site Ninja site.
     = link_to("Start", "/setup?step=1", :class => "next")
   - when params[:step] == "1"
+    - @title = "Step 1 - General Info"
     = render :partial => "step_1"
   - when params[:step] == "2"
+    - @title = "Step 2 - Modules and Features Selection"
     = render :partial => "step_2"
   - when params[:step] == "3"
+    -@title = "Step 3 - Database Setup"
     = render :partial => "step_3"
