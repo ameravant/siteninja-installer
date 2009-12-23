@@ -11,7 +11,7 @@ class SetupController < ApplicationController
   def step_1
     @setup['website']['name'] = params[:setup][:website_name]
     @setup['website']['domain'] = params[:setup][:website_domain]
-    @setup['website']['template'] = params[:template][:id]
+    @setup['website']['template'] = params[:setup][:website_template]
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rm public/index.html")
     system("rake rails:template LOCATION=step_1.rb")
