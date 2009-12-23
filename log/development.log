@@ -6967,3 +6967,835 @@ Rendering template within layouts/application
 Rendering setup/index
 Rendered setup/_step_3 (76.2ms)
 Completed in 120ms (View: 118, DB: 0) | 200 OK [http://localhost/setup?step=3]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:44:45) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 65ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:44:48) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (19.2ms)
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:45:34) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (5.4ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:46:10) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (5.0ms)
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:46:23) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (62.9ms)
+Completed in 71ms (View: 69, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:46:34) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.7ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:47:10) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.2ms)
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:47:26) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.7ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:48:06) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.3ms)
+Completed in 81ms (View: 12, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:48:30) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (7.8ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:49:00) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.3ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:49:36) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (64.6ms)
+Completed in 89ms (View: 83, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:50:09) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (5.8ms)
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:50:34) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.3ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:50:41) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:51:14) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:51:37) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.2ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:51:48) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (4.2ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:51:59) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:52:21) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.9ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:52:30) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (7.7ms)
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:53:37) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.4ms)
+Completed in 78ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:53:45) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (5.4ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:54:35) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.9ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:54:42) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.4ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:55:02) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.4ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:56:41) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+ERROR: compiling _run_haml_app47views47setup47_step_146html46haml_locals_object_step_1 RAISED compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:19: syntax error, unexpected ')', expecting '}'
+...;}\n      </li>\n", -1, false);end;
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:23: syntax error, unexpected kENSURE, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25: syntax error, unexpected kEND, expecting '}'
+Function body:           def _run_haml_app47views47setup47_step_146html46haml_locals_object_step_1(local_assigns)
+            old_output_buffer = output_buffer;step_1 = local_assigns[:step_1];object = local_assigns[:object];;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<h1>Step 1 &mdash; General Info</h1>\n<p>First, we'll need some basic information.</p>\n<form action='/setup/step_1'>\n  <fieldset>\n    <div>\n      #{_hamlout.adjust_tabs(3); haml_temp =  label_tag 'setup[website_name]', "Website Name"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  text_field_tag 'setup[website_name]', @setup['website']['name']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </div>\n    <div>\n      #{haml_temp =  label_tag 'setup[website_domain]', "Domain"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  text_field_tag 'setup[website_domain]', @setup['website']['domain']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <span class='small gray'>#{_hamlout.adjust_tabs(1); haml_temp = "Format: \"domain.com\". <strong>Do not include \"http://www.\"</strong>."
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</span>\n    </div>\n    Website Template\n    <ul class='templates'>\n", 0, false); templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"];
+ for template in templates;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  label_tag "setup[website_template_#{template}]", "#{image_tag("templates/thumbs/#{template}.jpg}")
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        #{haml_temp =  radio_button_tag 'setup[website_template]', template
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;
+_hamlout.push_text("      #{haml_temp =   #select(:template, :id, templates.map{|template| [template, template] })
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </ul>\n    <br />\n    #{_hamlout.adjust_tabs(-1); haml_temp =  submit_tag "Step 2", :class => "next"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </fieldset>\n</form>\n", -2, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers.rb:96:in `non_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:19: syntax error, unexpected ')', expecting '}'
+...;}\n      </li>\n", -1, false);end;
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:23: syntax error, unexpected kENSURE, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25: syntax error, unexpected kEND, expecting '}') on line #19 of app/views/setup/_step_1.html.haml:
+16:         %li
+17:           = label_tag "setup[website_template_#{template}]", "#{image_tag("templates/thumbs/#{template}.jpg}")
+18:           = radio_button_tag 'setup[website_template]', template
+19:       =  #select(:template, :id, templates.map{|template| [template, template] })
+20:     %br
+21:     = submit_tag "Step 2", :class => "next"
+
+    app/views/setup/_step_1.html.haml:25:in `compile!'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (108.5ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:57:12) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+ERROR: compiling _run_haml_app47views47setup47_step_146html46haml_locals_object_step_1 RAISED compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:17: syntax error, unexpected tSTRING_BEG, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:19: syntax error, unexpected ',', expecting '}'
+...very_temp));}\n      </li>\n", -1, false);end;
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:23: syntax error, unexpected kENSURE, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25: syntax error, unexpected kEND, expecting '}'
+Function body:           def _run_haml_app47views47setup47_step_146html46haml_locals_object_step_1(local_assigns)
+            old_output_buffer = output_buffer;step_1 = local_assigns[:step_1];object = local_assigns[:object];;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<h1>Step 1 &mdash; General Info</h1>\n<p>First, we'll need some basic information.</p>\n<form action='/setup/step_1'>\n  <fieldset>\n    <div>\n      #{_hamlout.adjust_tabs(3); haml_temp =  label_tag 'setup[website_name]', "Website Name"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  text_field_tag 'setup[website_name]', @setup['website']['name']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </div>\n    <div>\n      #{haml_temp =  label_tag 'setup[website_domain]', "Domain"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  text_field_tag 'setup[website_domain]', @setup['website']['domain']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <span class='small gray'>#{_hamlout.adjust_tabs(1); haml_temp = "Format: \"domain.com\". <strong>Do not include \"http://www.\"</strong>."
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</span>\n    </div>\n    Website Template\n    <ul class='templates'>\n", 0, false); templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"];
+ for template in templates;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  label_tag "setup[website_template_#{template}]", "#{image_tag("templates/thumbs/#{template}.jpg}")"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        #{haml_temp =  radio_button_tag 'setup[website_template]', template
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;
+_hamlout.push_text("      #{haml_temp =   #select(:template, :id, templates.map{|template| [template, template] })
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </ul>\n    <br />\n    #{_hamlout.adjust_tabs(-1); haml_temp =  submit_tag "Step 2", :class => "next"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </fieldset>\n</form>\n", -2, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers.rb:96:in `non_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:17: syntax error, unexpected tSTRING_BEG, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:19: syntax error, unexpected ',', expecting '}'
+...very_temp));}\n      </li>\n", -1, false);end;
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:23: syntax error, unexpected kENSURE, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25: syntax error, unexpected kEND, expecting '}') on line #17 of app/views/setup/_step_1.html.haml:
+14:       - templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"]
+15:       - for template in templates
+16:         %li
+17:           = label_tag "setup[website_template_#{template}]", "#{image_tag("templates/thumbs/#{template}.jpg}")"
+18:           = radio_button_tag 'setup[website_template]', template
+19:       =  #select(:template, :id, templates.map{|template| [template, template] })
+20:     %br
+
+    app/views/setup/_step_1.html.haml:25:in `compile!'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:57:30) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+ERROR: compiling _run_haml_app47views47setup47_step_146html46haml_locals_object_step_1 RAISED compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:17: syntax error, unexpected '}', expecting ')'
+...lates/thumbs/#{template}.jpg"})"
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:19: syntax error, unexpected ',', expecting '}'
+...very_temp));}\n      </li>\n", -1, false);end;
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:23: syntax error, unexpected kENSURE, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25: syntax error, unexpected kEND, expecting '}'
+Function body:           def _run_haml_app47views47setup47_step_146html46haml_locals_object_step_1(local_assigns)
+            old_output_buffer = output_buffer;step_1 = local_assigns[:step_1];object = local_assigns[:object];;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+
+
+_hamlout.push_text("<h1>Step 1 &mdash; General Info</h1>\n<p>First, we'll need some basic information.</p>\n<form action='/setup/step_1'>\n  <fieldset>\n    <div>\n      #{_hamlout.adjust_tabs(3); haml_temp =  label_tag 'setup[website_name]', "Website Name"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  text_field_tag 'setup[website_name]', @setup['website']['name']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </div>\n    <div>\n      #{haml_temp =  label_tag 'setup[website_domain]', "Domain"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      #{haml_temp =  text_field_tag 'setup[website_domain]', @setup['website']['domain']
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      <span class='small gray'>#{_hamlout.adjust_tabs(1); haml_temp = "Format: \"domain.com\". <strong>Do not include \"http://www.\"</strong>."
+_hamlout.format_script_false_true_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}</span>\n    </div>\n    Website Template\n    <ul class='templates'>\n", 0, false); templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"];
+ for template in templates;
+
+_hamlout.push_text("      <li>\n        #{_hamlout.adjust_tabs(1); haml_temp =  label_tag "setup[website_template_#{template}]", "#{image_tag("templates/thumbs/#{template}.jpg"})"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n        #{haml_temp =  radio_button_tag 'setup[website_template]', template
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n      </li>\n", -1, false);end;
+_hamlout.push_text("      #{haml_temp =   #select(:template, :id, templates.map{|template| [template, template] })
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    </ul>\n    <br />\n    #{_hamlout.adjust_tabs(-1); haml_temp =  submit_tag "Step 2", :class => "next"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </fieldset>\n</form>\n", -2, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers.rb:96:in `non_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/dmyers/git/siteninja-setup/app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:301:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.2/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:17: syntax error, unexpected '}', expecting ')'
+...lates/thumbs/#{template}.jpg"})"
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:19: syntax error, unexpected ',', expecting '}'
+...very_temp));}\n      </li>\n", -1, false);end;
+                              ^
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:23: syntax error, unexpected kENSURE, expecting '}'
+/Users/dmyers/git/siteninja-setup/app/views/setup/_step_1.html.haml:25: syntax error, unexpected kEND, expecting '}') on line #17 of app/views/setup/_step_1.html.haml:
+14:       - templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"]
+15:       - for template in templates
+16:         %li
+17:           = label_tag "setup[website_template_#{template}]", "#{image_tag("templates/thumbs/#{template}.jpg"})"
+18:           = radio_button_tag 'setup[website_template]', template
+19:       =  #select(:template, :id, templates.map{|template| [template, template] })
+20:     %br
+
+    app/views/setup/_step_1.html.haml:25:in `compile!'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.2) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/setup/index.html.haml:9:in `_run_haml_app47views47setup47index46html46haml'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.2) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (64.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:57:37) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.0ms)
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:57:54) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (8.2ms)
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:58:13) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.8ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:58:20) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.3ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:59:01) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:59:08) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 12:59:13) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.3ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:00:32) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.4ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:01:04) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.5ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:01:16) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:01:22) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.3ms)
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:01:29) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.4ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:01:49) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.6ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:01:54) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.5ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:03:26) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (6.2ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:04:16) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.4ms)
+Completed in 62ms (View: 5, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-23 13:04:52) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.6ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]

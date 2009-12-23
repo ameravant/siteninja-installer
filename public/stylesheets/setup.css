@@ -20,6 +20,9 @@ body { font-size: 16px; font-family: Tahoma, Arial, Sans-Serif; background: #e5e
   .checkboxes { clear: both; height: inherit; }
   .checkboxes input { margin: 0 20px 10px 0; vertical-align: middle; }
   .checkboxes label { display: inline; float: none; width: inherit; }
+  .templates { list-style: none; width: 740px; height: 365px; overflow: auto; margin: 10px 0; padding: 0; text-transform: uppercase; font-size: .7em; border-bottom: 1px solid #6D869F; border-top: 1px solid #6D869F; background: #B5CADF; }
+  .templates li { float: left; padding: 10px; text-align: center; width: 100px; border-bottom: 1px solid #1D4267; }
+  .templates label { display: inline; float: none; width: inherit; }
   fieldset input { font-size: 1.2em; }
   fieldset div { margin: 0 0 10px 0; clear: both; height: 40px; }
   #steps-wrapper { background: #1d4267; color: #6F9FD0; height: 80px; border-top: #0a253f 1px solid; border-bottom: 1px solid #6f9fd0;}
