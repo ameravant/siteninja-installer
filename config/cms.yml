@@ -28,8 +28,7 @@ features:
   testimonials: false
   feature_box: true
   event_registration: true
-site_settings:
-  member_confirmation: true 
+site_settings: 
   event_title: Event
   blog_title: Blog
   file_up_size: 20
