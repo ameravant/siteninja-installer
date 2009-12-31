@@ -33,5 +33,5 @@ body { font-size: 16px; font-family: Tahoma, Arial, Sans-Serif; background: #e5e
       #steps a:hover { color: #fff; }
       #steps a.selected { color: #9be42f; }
     #steps .deploy { }
-#spinner { background: url(/images/spinner.gif) no-repeat left center; padding: 0 0 0 30px; color: #4570A6; display: none; line-height: 50px; }
+#spinner { background: url(/images/spinner.gif) no-repeat left center; padding: 0 0 0 30px; color: #607285; display: none; line-height: 50px; }
 #copyright { font-size: .8em; color: #808e9d; width: 850px; margin: 0 auto; padding: 40px 0; }

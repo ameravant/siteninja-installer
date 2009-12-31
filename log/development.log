@@ -8015,3 +8015,23 @@ Rendering template within layouts/application
 Rendering setup/index
 Rendered setup/_step_1 (3.5ms)
 Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-31 14:10:52) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-31 14:10:53) [GET]
+Rendering template within layouts/application
+Rendering setup/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SetupController#index (for 127.0.0.1 at 2009-12-31 14:10:54) [GET]
+  Parameters: {"step"=>"1"}
+Rendering template within layouts/application
+Rendering setup/index
+Rendered setup/_step_1 (3.8ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/setup?step=1]
