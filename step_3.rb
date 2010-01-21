@@ -5,6 +5,7 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv application_controller.rb #{RAILS_ROOT}/app/controllers"
   run "mv #{RAILS_ROOT}/config/routes.rb #{RAILS_ROOT}/config/routes-setup-backup.rb"
   run "mv routes.rb #{RAILS_ROOT}/config"
+  run "mv s3.yml #{RAILS_ROOT}/config"
   run "mv permissions.yml #{RAILS_ROOT}/config"
   run "mv environment.rb #{RAILS_ROOT}/config"
   run "mv production.rb #{RAILS_ROOT}/config/environments"
