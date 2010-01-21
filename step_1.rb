@@ -8,9 +8,11 @@ end
 
 ############### These lines need to be removed after merging s3 branch into master #########
 inside('vendor/plugins/siteninja/siteninja_core') do
+  run "git branch s3_branch origin/s3_branch"
   run "git checkout s3_branch"
 end
 inside('vendor/plugins/siteninja/siteninja_setup') do
+  run "git branch s3_branch origin/s3_branch"
   run "git checkout s3_branch"
 end
 ###################################################
