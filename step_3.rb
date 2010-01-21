@@ -10,6 +10,7 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv production.rb #{RAILS_ROOT}/config/environments"
   run "mv *.css #{RAILS_ROOT}/public/stylesheets"
   run "mv initializers/* #{RAILS_ROOT}/config/initializers/"
+  run "rm -r initializers"
 end
 
 run "echo 'map.from_plugin :siteninja_links' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['links']
