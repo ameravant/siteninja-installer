@@ -1,8 +1,6 @@
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 inside('vendor/plugins/siteninja/siteninja_setup') do
   run "echo Copying default application layout, stylesheets and configuration files..."
-  run "mv application.html.haml #{RAILS_ROOT}/app/views/layouts"
-  run "mv application_controller.rb #{RAILS_ROOT}/app/controllers"
   run "mv #{RAILS_ROOT}/config/routes.rb #{RAILS_ROOT}/config/routes-setup-backup.rb"
   run "mv routes.rb #{RAILS_ROOT}/config"
   run "mv permissions.yml #{RAILS_ROOT}/config"
@@ -29,6 +27,8 @@ else
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
   run "mongrel_rails restart"
 end
+run "rm -r app/views/layouts/application.html.haml"
+run "rm -r app/views/controllers/application_controller.rb"
 run "rm -r app/views/setup"
 run "rm config/routes-setup-backup.rb"
 run "rm step_1.rb"
