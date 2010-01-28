@@ -30,6 +30,7 @@ end
 run "rm -r app/views/layouts/application.html.haml"
 run "rm -r app/views/controllers/application_controller.rb"
 run "rm -r app/views/setup"
+run "rm -r app/controllers/setup_controller.rb"
 run "rm config/routes-setup-backup.rb"
 run "rm step_1.rb"
 run "rm step_2.rb"
