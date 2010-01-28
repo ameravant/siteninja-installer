@@ -29,6 +29,7 @@ features:
   feature_box: true
   event_registration: true
 site_settings: 
+  s3_enabled:
   event_title: Event
   blog_title: Blog
   file_up_size: 20
