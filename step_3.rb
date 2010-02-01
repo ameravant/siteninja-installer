@@ -9,7 +9,6 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv production.rb #{RAILS_ROOT}/config/environments"
   run "mv *.css #{RAILS_ROOT}/public/stylesheets"
   run "mv initializers/* #{RAILS_ROOT}/config/initializers/"
-  run "rm -r initializers"
 end
 
 run "echo 'map.from_plugin :siteninja_links' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['links']
@@ -23,17 +22,18 @@ run "rm db/migrate/*"
 run "rake db:drop db:create"
 run "script/generate plugin_migration"
 if setup['website']['environment'] == "production"
-  run "rm -r vendor/plugins/siteninja_plugins"
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=production"
   run "touch tmp/restart.txt"
 else
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
   run "mongrel_rails restart"
 end
-run "rm -r app/views/layouts/application.html.haml"
-run "rm -r app/views/controllers/application_controller.rb"
+run "rm -rf vendor/plugins/siteninja/siteninja_setup"
+run "rm -rf vendor/plugins/siteninja_plugins"
+run "rm -app/views/layouts/application.html.haml"
+run "rm -app/views/controllers/application_controller.rb"
 run "rm -r app/views/setup"
-run "rm -r app/controllers/setup_controller.rb"
+run "rm app/controllers/setup_controller.rb"
 run "rm config/routes-setup-backup.rb"
 run "rm step_1.rb"
 run "rm step_2.rb"
