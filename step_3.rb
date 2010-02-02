@@ -32,7 +32,7 @@ else
   run "mongrel_rails restart"
 end
 run "rm -r app/views/layouts/application.html.haml"
-run "rm -r app/views/controllers/application_controller.rb"
+run "rm -r app/controllers/application_controller.rb"
 run "rm -r app/controllers/setup_controller.rb"
 run "rm -r config/routes-setup-backup.rb"
 run "rm -r step_1.rb"
