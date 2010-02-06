@@ -1,4 +1,5 @@
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
+run "mkdir lib"
 inside('vendor/plugins/siteninja/siteninja_setup') do
   run "echo Copying default application layout, stylesheets and configuration files..."
   run "mv #{RAILS_ROOT}/config/routes.rb #{RAILS_ROOT}/config/routes-setup-backup.rb"
@@ -8,7 +9,8 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv environment.rb #{RAILS_ROOT}/config"
   run "mv production.rb #{RAILS_ROOT}/config/environments"
   run "mv *.css #{RAILS_ROOT}/public/stylesheets"
-  run "mv initializers/* #{RAILS_ROOT}/config/initializers/"
+  run "mv initializers/* #{RAILS_ROOT}/config/initializers"
+  run "mv lib/* #{RAILS_ROOT}/lib"
 end
 
 run "echo 'map.from_plugin :siteninja_links' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['links']
