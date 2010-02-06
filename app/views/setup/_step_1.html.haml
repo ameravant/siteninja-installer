@@ -9,6 +9,12 @@
       = label_tag 'setup[website_domain]', "Domain" 
       = text_field_tag 'setup[website_domain]', @setup['website']['domain']
       %span{:class => "small gray"}== Format: "domain.com". <strong>Do not include "http://www."</strong>.
+    %div
+      = label_tag 'setup[sendgrid_username]', "Sendgrid Username"
+      = text_field_tag 'setup[sendgrid_username]', @setup['site_settings']['sendgrid_username']
+    %div
+      = label_tag 'setup[sendgrid_password]', "Sendgrid Password"
+      = text_field_tag 'setup[sendgrid_password]', @setup['site_settings']['sendgrid_password']
     Website Template:
     %ul.templates 
       - templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"]

@@ -38,3 +38,5 @@ site_settings:
   events_title: Calendar
   links_title: Links
   link_title: Resource
+  sendgrid_username: support@ameravant.com
+  sendgrid_password: 1234Mail

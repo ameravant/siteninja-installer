@@ -10,6 +10,8 @@ class SetupController < ApplicationController
   
   def step_1
     @setup['site_settings']['s3_enabled'] = true
+    @setup['site_settings']['sendgrid_username'] = params[:setup][:sendgrid_username]
+    @setup['site_settings']['sendgrid_password'] = params[:setup][:sendgrid_password]
     @setup['website']['name'] = params[:setup][:website_name]
     @setup['website']['domain'] = params[:setup][:website_domain]
     @setup['website']['template'] = params[:setup][:website_template]
