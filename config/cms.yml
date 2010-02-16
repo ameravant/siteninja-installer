@@ -28,7 +28,8 @@ features:
   testimonials: false
   feature_box: true
   event_registration: false
-site_settings: 
+site_settings:
+  member_confirmation: 
   s3_enabled:
   event_title: Event
   blog_title: Blog
