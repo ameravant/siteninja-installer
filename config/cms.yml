@@ -3,7 +3,7 @@ modules:
   blog: true
   documents: false
   galleries: false
-  store: true
+  store: true 
   events: false
   product: false
   version: 1.0.0
@@ -29,7 +29,7 @@ features:
   feature_box: true
   event_registration: false
 site_settings: 
-  s3_enabled:
+  s3_enabled: 
   event_title: Event
   blog_title: Blog
   file_up_size: 20

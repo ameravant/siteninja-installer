@@ -11,13 +11,13 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv initializers/* #{RAILS_ROOT}/config/initializers/"
 end
 
-run "echo 'map.from_plugin :siteninja_links' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['links']
-run "echo 'map.from_plugin :siteninja_events' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['events']
-run "echo 'map.from_plugin :siteninja_newsletters' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['newsletters']
-run "echo 'map.from_plugin :siteninja_store' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['product']
-run "echo 'map.from_plugin :siteninja_galleries' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['galleries']
-run "echo 'map.from_plugin :siteninja_documents' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['documents']
-run "echo 'map.from_plugin :siteninja_pages # Must be last! \n end' >> #{RAILS_ROOT}/config/routes.rb"
+# run "echo 'map.from_plugin :siteninja_links' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['links']
+# run "echo 'map.from_plugin :siteninja_events' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['events']
+# run "echo 'map.from_plugin :siteninja_newsletters' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['newsletters']
+# run "echo 'map.from_plugin :siteninja_store' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['product']
+# run "echo 'map.from_plugin :siteninja_galleries' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['galleries']
+# run "echo 'map.from_plugin :siteninja_documents' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['documents']
+# run "echo 'map.from_plugin :siteninja_pages # Must be last! \n end' >> #{RAILS_ROOT}/config/routes.rb"
 run "rm db/migrate/*"
 run "rake db:drop db:create"
 run "script/generate plugin_migration"
