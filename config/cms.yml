@@ -28,8 +28,8 @@ features:
   testimonials: false
   feature_box: true
   event_registration: false
-site_settings: 
-  s3_enabled: 
+site_settings:
+  s3_enabled:
   event_title: Event
   blog_title: Blog
   file_up_size: 20
@@ -38,3 +38,5 @@ site_settings:
   events_title: Calendar
   links_title: Links
   link_title: Resource
+  sendgrid_username: support@ameravant.com
+  sendgrid_password: 1234Mail
