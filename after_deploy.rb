@@ -1,3 +1,10 @@
+# cms.yml must be persistent!
+path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
+inside("#{path}/current") do
+  run "rm #{path}/current/config/cms.yml"
+  run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
+end
+
 # Clone modules and plugins
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 if setup['site_settings']['plugins']
@@ -27,6 +34,7 @@ inside('vendor/plugins/siteninja') do
 end
 
 # Update setup files
+run "mkdir lib"
 inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv s3.yml #{RAILS_ROOT}/config"
   run "mv routes.rb #{RAILS_ROOT}/config"

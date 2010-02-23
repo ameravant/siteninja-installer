@@ -1,13 +1,13 @@
 class SetupController < ApplicationController
   before_filter :cms_config
   def index
-    @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     @db = YAML::load_file("#{RAILS_ROOT}/config/database.yml")
-    if !@setup['site_settings']['show_installer']
+    # Simple db check to see if the installer should run.
+    if ActiveRecord::Base.connection.tables.include?("settings")
       system("rake rails:template LOCATION=after_deploy.rb")
       redirect_to "/"
     end
-    
+    @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     unless params[:step]
       params[:step] = "0"
     end    
