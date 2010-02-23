@@ -41,3 +41,4 @@ site_settings:
   sendgrid_username: support@ameravant.com
   sendgrid_password: 1234Mail
   show_installer: true
+  private: true
