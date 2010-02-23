@@ -40,3 +40,4 @@ site_settings:
   link_title: Resource
   sendgrid_username: support@ameravant.com
   sendgrid_password: 1234Mail
+  show_installer: true

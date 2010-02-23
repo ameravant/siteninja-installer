@@ -3,6 +3,11 @@ class SetupController < ApplicationController
   def index
     @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     @db = YAML::load_file("#{RAILS_ROOT}/config/database.yml")
+    if !@setup['site_settings']['show_installer']
+      system("rake rails:template LOCATION=after_deploy.rb")
+      redirect_to "/"
+    end
+    
     unless params[:step]
       params[:step] = "0"
     end    
@@ -46,6 +51,7 @@ class SetupController < ApplicationController
     File.open("#{RAILS_ROOT}/config/database.yml", 'w') { |f| YAML.dump(@db, f) }
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rake rails:template LOCATION=step_3.rb")
+    @setup['site_settings']['show_installer'] = false
     system("touch tmp/restart.txt")
     system("mongrel_rails restart")
     redirect_to "/"

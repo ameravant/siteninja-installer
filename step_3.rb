@@ -33,6 +33,8 @@ else
   run "rake db:drop db:create db:migrate db:populate_min RAILS_ENV=development"
   run "mongrel_rails restart"
 end
+
+# Remove installer files
 run "rm -r app/views/layouts/application.html.haml"
 run "rm -r app/controllers/application_controller.rb"
 run "rm -r app/controllers/setup_controller.rb"
@@ -40,3 +42,10 @@ run "rm -r config/routes-setup-backup.rb"
 run "rm -r step_1.rb"
 run "rm -r step_2.rb"
 run "rm -r step_3.rb"
+
+# Ensure persistent files are in shared directories
+path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
+inside("#{path}/current") do
+  run "mv #{path}/current/config/cms.yml #{path}/shared/config/"
+  run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
+end
