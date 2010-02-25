@@ -35,6 +35,7 @@ class SetupController < ApplicationController
     params[:setup][:modules_galleries] ? @setup['modules']['galleries'] = true : @setup['modules']['galleries'] = false
     params[:setup][:modules_links] ? @setup['modules']['links'] = true : @setup['modules']['links'] = false
     params[:setup][:modules_members] ? @setup['modules']['members'] = true : @setup['modules']['members'] = false
+    params[:setup][:modules_profiles] ? @setup['modules']['profiles'] = true : @setup['modules']['profiles'] = false
     params[:setup][:features_feature_box] ? @setup['features']['feature_box'] = true : @setup['features']['feature_box'] = false
     params[:setup][:features_testimonials] ? @setup['features']['testimonials'] = true : @setup['features']['testimonials'] = false
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
