@@ -3,6 +3,7 @@ path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
 inside("#{path}/current") do
   run "rm #{path}/current/config/cms.yml"
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
+  run "mkdir vendor/plugins/siteninja"
 end
 
 # Clone modules and plugins
