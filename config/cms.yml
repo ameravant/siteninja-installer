@@ -11,6 +11,7 @@ modules:
   newsletters: false
   links: false
   members: false
+  profiles: false
 keys: 
   sharethis: 998f13df-36bb-4d5b-96fc-c750d3a55a99
   google_maps: ABQIAAAAcFCYQRnwVUthPL-ySCSjJBSLDG_2ULvcs8_kz7lLyWlTqMYI6BQ3Mk_WENuT5q-vBi1wjshbLJ7aoQ
@@ -30,6 +31,7 @@ features:
   event_registration: false
 site_settings:
   s3_enabled:
+  member_confirmation: false
   event_title: Event
   blog_title: Blog
   file_up_size: 20
