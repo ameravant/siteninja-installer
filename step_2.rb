@@ -6,6 +6,5 @@ inside('vendor/plugins/siteninja') do
   run "git clone git@github.com:ameravant/siteninja_store.git" if setup['modules']['product']
   run "git clone git@github.com:ameravant/siteninja_galleries.git" if setup['modules']['galleries']
   run "git clone git@github.com:ameravant/siteninja_links.git" if setup['modules']['links']
-  run "git clone git@github.com:ameravant/siteninja_profiles.git" if setup['modules']['profiles']
 end
 
