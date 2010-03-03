@@ -20,7 +20,7 @@ class SetupController < ApplicationController
     @setup['website']['name'] = params[:setup][:website_name]
     @setup['website']['domain'] = params[:setup][:website_domain]
     @setup['website']['template'] = params[:setup][:website_template]
-    @setup['site_settings']['s3_bucket_name'] = params[:setup][:website_domain]
+    @setup['site_settings']['s3_bucket_name'] = "ameravant-#{params[:setup][:website_domain].gsub(/\W+/, ' ').strip.gsub(/\ +/, '-')}-#{RAILS_ENV}"[0..252].gsub(/-$/, '')
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rm public/index.html")
     system("rake rails:template LOCATION=step_1.rb")
