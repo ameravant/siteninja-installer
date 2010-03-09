@@ -35,6 +35,7 @@ site_settings:
   member_confirmation: false
   event_title: Event
   blog_title: Blog
+  google_merchant_id: 
   file_up_size: 20
   article_title: Article
   third_level_menu: left
