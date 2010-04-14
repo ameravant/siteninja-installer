@@ -32,7 +32,7 @@ features:
 site_settings:
   s3_enabled:
   s3_bucket_name:
-  show_past_events:true
+  show_past_events: true
   member_confirmation: false
   event_title: Event
   blog_title: Blog
