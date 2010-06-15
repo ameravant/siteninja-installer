@@ -1,4 +1,8 @@
 run "rm public/index.html"
+# Ensure ssh key pairing is active
+run "exec ssh-agent bash"
+run "ssh-add ~/.ssh/id_rsa"
+
 inside('vendor/plugins/siteninja') do
   run "git clone git@github.com:ameravant/siteninja_pages.git"
   run "git clone git@github.com:ameravant/siteninja_blogs.git"

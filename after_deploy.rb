@@ -5,7 +5,9 @@ inside("#{path}/current") do
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
   run "mkdir vendor/plugins/siteninja"
 end
-
+# Ensure ssh key pairing is active
+run "exec ssh-agent bash"
+run "ssh-add ~/.ssh/id_rsa"
 # Clone modules and plugins
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 if setup['site_settings']['plugins']
