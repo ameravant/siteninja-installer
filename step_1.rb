@@ -15,3 +15,4 @@ inside('vendor/plugins') do
   run "mv siteninja_plugins/* siteninja/"
 end
 run "script/plugin install git://github.com/mislav/will_paginate.git"
+run "script/plugin install git://github.com/tra/spawn.git"
