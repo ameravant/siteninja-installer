@@ -11,7 +11,7 @@ class SetupController < ApplicationController
       plugins = "[ :all, " + Plugin.all.reject { |c| }.map { |c| ":#{c.url.gsub(/\S*\/(\S*)(.git)/, '\1')}" }.join(", ") + " ]"
       @cms_config['site_settings']['plugin_urls'] = plugin_urls
       @cms_config['site_settings']['plugins'] = plugins
-      File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
+      File.open("#{path}/shared/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
       
       # Run After Deploy Rake
       system("rake rails:template LOCATION=after_deploy.rb")
