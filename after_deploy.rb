@@ -4,6 +4,7 @@ run "script/plugin install git://github.com/mislav/will_paginate.git"
 # Add Spawn Plugin for background processes
 run "script/plugin install git://github.com/tra/spawn.git"
 
+# Determine directory of application (/data/application_name/current)
 path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
 inside("#{path}/current") do
   # cms.yml must be persistent!
