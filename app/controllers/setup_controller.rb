@@ -5,6 +5,7 @@ class SetupController < ApplicationController
     # Simple db check to see if the installer should run.
     if ActiveRecord::Base.connection.tables.include?("settings")
       # Generate plugins and plugin_urls for cms.yml
+      @cms_config = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
       plugin_urls = "'" + Plugin.all.reject { |c| }.map { |c| "#{c.url}" }.join(", ") + "'"
       plugins = "[ :all, " + Plugin.all.reject { |c| }.map { |c| ":#{c.url.gsub(/\S*\/(\S*)(.git)/, '\1')}" }.join(", ") + " ]"
       @cms_config['site_settings']['plugin_urls'] = plugin_urls
