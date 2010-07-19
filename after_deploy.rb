@@ -1,13 +1,18 @@
-# cms.yml must be persistent!
+# Add will_paginate plugin
+run "script/plugin install git://github.com/mislav/will_paginate.git"
+
+# Add Spawn Plugin for background processes
+run "script/plugin install git://github.com/tra/spawn.git"
+
 path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
 inside("#{path}/current") do
+  # cms.yml must be persistent!
   run "rm #{path}/current/config/cms.yml"
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
-  run "mkdir vendor/plugins/siteninja"
+  # make siteninja plugin directory
+  run "mkdir #{path}/vendor/plugins/siteninja"
 end
-# Ensure ssh key pairing is active
-run "exec ssh-agent bash"
-run "ssh-add ~/.ssh/id_rsa"
+
 # Clone modules and plugins
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 if setup['site_settings']['plugins']
@@ -28,7 +33,6 @@ inside('vendor/plugins') do
   run "git clone git@github.com:ameravant/siteninja_plugins.git"
   run "mv siteninja_plugins/* siteninja/"
 end
-run "script/plugin install git://github.com/mislav/will_paginate.git"
 
 # Remove old setup folder and clone newest version
 run "rm -rf vendor/plugins/siteninja/siteninja_setup"
