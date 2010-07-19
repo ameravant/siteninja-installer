@@ -4,6 +4,14 @@ class SetupController < ApplicationController
     @db = YAML::load_file("#{RAILS_ROOT}/config/database.yml")
     # Simple db check to see if the installer should run.
     if ActiveRecord::Base.connection.tables.include?("settings")
+      # Generate plugins and plugin_urls for cms.yml
+      plugin_urls = "'" + Plugin.all.reject { |c| }.map { |c| "#{c.url}" }.join(", ") + "'"
+      plugins = "[ :all, " + Plugin.all.reject { |c| }.map { |c| ":#{get_git_directory(c.url)}" }.join(", ") + " ]"
+      @cms_config['site_settings']['plugin_urls'] = plugin_urls
+      @cms_config['site_settings']['plugins'] = plugins
+      File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
+      
+      # Run After Deploy Rake
       system("rake rails:template LOCATION=after_deploy.rb")
       redirect_to "/"
     end

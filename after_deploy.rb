@@ -11,7 +11,7 @@ inside("#{path}/current") do
   run "rm #{path}/current/config/cms.yml"
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
   # make siteninja plugin directory
-  run "mkdir #{path}/vendor/plugins/siteninja"
+  run "mkdir #{path}/current/vendor/plugins/siteninja"
 end
 
 # Clone modules and plugins
