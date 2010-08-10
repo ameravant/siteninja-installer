@@ -52,6 +52,7 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv *.css #{RAILS_ROOT}/public/stylesheets"
   run "mv initializers/* #{RAILS_ROOT}/config/initializers"
   run "mv lib/* #{RAILS_ROOT}/lib"
+  run "mv metal #{RAILS_ROOT}/metal"
 end
 
 # Migrate database and restart app.
