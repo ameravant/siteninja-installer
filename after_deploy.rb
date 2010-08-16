@@ -4,8 +4,8 @@ run "script/plugin install git://github.com/mislav/will_paginate.git"
 # Add Spawn Plugin for background processes
 run "script/plugin install git://github.com/tra/spawn.git"
 
-run "exec ssh-agent bash"
-run "ssh-add ~/.ssh/id_rsa"
+# run "exec ssh-agent bash"
+# run "ssh-add ~/.ssh/id_rsa"
 
 # Determine directory of application (/data/application_name/current)
 path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
