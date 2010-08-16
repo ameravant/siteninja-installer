@@ -29,7 +29,7 @@ if setup['site_settings']['plugins']
   plugins = setup['site_settings']['plugins'].gsub("[ ", "").gsub(" ]", "").gsub(":", "").gsub("all, ", "")
   for plugin in plugins.split(", ")
     inside("vendor/plugins/siteninja/#{plugin}") do
-      run "git pull"
+      run "git pull origin master"
     end
   end
 end
