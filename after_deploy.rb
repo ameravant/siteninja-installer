@@ -4,6 +4,9 @@ run "script/plugin install git://github.com/mislav/will_paginate.git"
 # Add Spawn Plugin for background processes
 run "script/plugin install git://github.com/tra/spawn.git"
 
+# run "exec ssh-agent bash"
+# run "ssh-add ~/.ssh/id_rsa"
+
 # Determine directory of application (/data/application_name/current)
 path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
 inside("#{path}/current") do
@@ -26,7 +29,7 @@ if setup['site_settings']['plugins']
   plugins = setup['site_settings']['plugins'].gsub("[ ", "").gsub(" ]", "").gsub(":", "").gsub("all, ", "")
   for plugin in plugins.split(", ")
     inside("vendor/plugins/siteninja/#{plugin}") do
-      run "git pull"
+      run "git pull origin master"
     end
   end
 end
