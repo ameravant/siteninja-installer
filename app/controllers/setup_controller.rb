@@ -13,11 +13,9 @@ class SetupController < ApplicationController
       @cms_config['site_settings']['plugins'] = plugins
       File.open("#{path}/shared/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
       # Create a sitemap here
-      logger.info("here")
-      spawn do 
-        logger.info("creating sitemap")
-        create_sitemap      
-      end
+      logger.info("creating sitemap")
+      create_sitemap      
+
       # Run After Deploy Rake
       system("rake rails:template LOCATION=after_deploy.rb")
       redirect_to "/"
