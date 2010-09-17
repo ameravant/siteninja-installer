@@ -17,7 +17,7 @@
       = text_field_tag 'setup[sendgrid_password]', @setup['site_settings']['sendgrid_password']
     Website Template:
     %ul.templates 
-      - templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"]
+      - templates = ["t1c1", "t1c2", "t1c3", "t1c4", "t1c5", "t2c1", "t2c2", "t2c3", "t2c4", "t3c2", "t3c3", "t3c4", "t3c5", "t3c6", "t3c7", "t4c1", "t4c2", "t4c4", "t5c2", "t5c3", "t5c4", "t5c5", "t5c6"]
       - for template in templates
         %li
           = label_tag "setup[website_template_#{template}]", "#{template} #{image_tag("templates/thumbs/#{template}.jpg")}"
