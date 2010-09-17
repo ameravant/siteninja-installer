@@ -19,6 +19,7 @@ end
 
 # Clone modules and plugins
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
+
 if setup['site_settings']['plugins']
   plugin_urls = setup['site_settings']['plugin_urls'].gsub("'", "")
   for plugin_url in plugin_urls.split(", ")
