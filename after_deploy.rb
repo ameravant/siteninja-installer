@@ -15,7 +15,7 @@ inside("#{path}/current") do
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
   # make siteninja plugin directory
   run "mkdir #{path}/current/vendor/plugins/siteninja"
-end
+end  
 
 # Clone modules and plugins
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
