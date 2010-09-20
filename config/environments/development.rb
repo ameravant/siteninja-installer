@@ -13,5 +13,9 @@ config.action_controller.consider_all_requests_local = true
 config.action_view.debug_rjs                         = true
 config.action_controller.perform_caching             = false
 
-# Don't care if the mailer can't send
-config.action_mailer.raise_delivery_errors = false
+#Uncomment this if you need to send/debug mail from an app
+observer_array = [:comment_observer, :inquiry_observer]
+observer_array << [:profile_observer] if CMS_CONFIG['modules']['profiles']
+config.active_record.observers = observer_array
+config.action_mailer.raise_delivery_errors = true
+config.action_mailer.delivery_method = :sendmail
