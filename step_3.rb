@@ -5,7 +5,7 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "echo Copying default application layout, stylesheets and configuration files..."
   run "mv #{RAILS_ROOT}/config/routes.rb #{RAILS_ROOT}/config/routes-setup-backup.rb"
   run "mv routes.rb #{RAILS_ROOT}/config"
-  if setup['site-settings']['s3_new_path']
+  if setup['site_settings']['s3_new_path']
     run "mv s3_2.yml #{RAILS_ROOT}/config/s3.yml"
   else
     run "mv s3.yml #{RAILS_ROOT}/config/"
