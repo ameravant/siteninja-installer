@@ -1,7 +1,7 @@
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 run "mkdir lib"
 inside('vendor/plugins/siteninja/siteninja_setup') do
-  run "git branch --track s3_fix origin/s3_fix && git checkout s3_fix"
+  # run "git branch --track s3_fix origin/s3_fix && git checkout s3_fix"
   run "echo Copying default application layout, stylesheets and configuration files..."
   run "mv #{RAILS_ROOT}/config/routes.rb #{RAILS_ROOT}/config/routes-setup-backup.rb"
   run "mv routes.rb #{RAILS_ROOT}/config"
