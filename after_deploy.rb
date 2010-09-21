@@ -49,7 +49,7 @@ end
 run "mkdir lib"
 inside('vendor/plugins/siteninja/siteninja_setup') do
   #ran out of buckets so needed to change the s3.yml to new account
-  if setup['site-settings']['s3-new-path']
+  if setup['site-settings']['s3_new_path']
     run "mv s3_2.yml #{RAILS_ROOT}/config/s3.yml"
   else
     run "mv s3.yml #{RAILS_ROOT}/config/"
