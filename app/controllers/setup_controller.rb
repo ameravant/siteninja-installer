@@ -16,7 +16,7 @@ class SetupController < ApplicationController
       # Run After Deploy Rake
       system("rake rails:template LOCATION=after_deploy.rb")
       # Create a sitemap here
-      create_sitemap
+      #create_sitemap
       redirect_to "/"
     end
     @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
