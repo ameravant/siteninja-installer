@@ -18,6 +18,8 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv lib/* #{RAILS_ROOT}/lib"
 end
 
+File.open("#{RAILS_ROOT}/public/robots.txt", 'w') {|f| f.write("Sitemap: http://#{setup["website"]["domain"]}/sitemap.xml")}
+
 # run "echo 'map.from_plugin :siteninja_links' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['links']
 # run "echo 'map.from_plugin :siteninja_events' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['events']
 # run "echo 'map.from_plugin :siteninja_newsletters' >> #{RAILS_ROOT}/config/routes.rb" if setup['modules']['newsletters']
