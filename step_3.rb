@@ -1,10 +1,15 @@
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 run "mkdir lib"
 inside('vendor/plugins/siteninja/siteninja_setup') do
+  # run "git branch --track s3_fix origin/s3_fix && git checkout s3_fix"
   run "echo Copying default application layout, stylesheets and configuration files..."
   run "mv #{RAILS_ROOT}/config/routes.rb #{RAILS_ROOT}/config/routes-setup-backup.rb"
   run "mv routes.rb #{RAILS_ROOT}/config"
-  run "mv s3.yml #{RAILS_ROOT}/config"
+  if setup['site_settings']['s3_new_path']
+    run "mv s3_2.yml #{RAILS_ROOT}/config/s3.yml"
+  else
+    run "mv s3.yml #{RAILS_ROOT}/config/"
+  end
   run "mv permissions.yml #{RAILS_ROOT}/config"
   run "mv environment.rb #{RAILS_ROOT}/config"
   run "mv production.rb #{RAILS_ROOT}/config/environments"
