@@ -12,105 +12,17 @@ class SetupController < ApplicationController
       @cms_config['site_settings']['plugin_urls'] = plugin_urls
       @cms_config['site_settings']['plugins'] = plugins
       File.open("#{path}/shared/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
-      # Create a sitemap here
-      logger.info("creating sitemap")
-      #create_sitemap      
 
       # Run After Deploy Rake
       system("rake rails:template LOCATION=after_deploy.rb")
-      redirect_to "/"
+      File.open("#{RAILS_ROOT}/public/robots.txt", 'w') {|f| f.write("Sitemap: http://#{@cms_config["website"]["domain"]}/sitemap.xml")}      
+      # Can't call this b/c it is under admin need to figure out way to call this 
+      #redirect_to generate_sitemap_admin_setting_path
     end
     @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     unless params[:step]
       params[:step] = "0"
     end    
-  end
-  
-  def create_sitemap
-    require 'xml-sitemap'
-    map = XmlSitemap::Map.new(@cms_config['website']['domain'])
-    map.add(:url => '/')
-    #Add all pages here and then proceed to add all pages contained in modules
-    Page.all.each do |p|
-      map.add(:url => '/'+p.permalink)
-    end
-    if @cms_config['modules']['blog']
-      map.add(:url => blog_path)
-      if !Article.first.blank?
-        Article.all.each do |a|
-          map.add(:url => article_path(a))
-        end
-      end
-      if !ArticleCategory.first.blank?
-        ArticleCategory.all.each do |a|
-          map.add(:url => article_category_path(a))
-        end
-      end
-    end
-    if @cms_config['modules']['product']
-      map.add(:url => products_path)
-      if Product.first.blank?
-        Product.all.each do |a|
-          map.add(:url => product_path(a))
-        end
-      end
-      if ProductCategory.first.blank?
-        ProductCategory.all.each do |a|
-          map.add(:url => product_category_path(a))
-        end
-      end
-    end
-    if @cms_config['modules']['events']
-      map.add(:url => events_path)
-      if !Event.first.blank?
-        Event.all.each do |a|
-          map.add(:url => event_path(a))
-        end
-      end
-      if !EventCategory.first.blank?
-        EventCategory.all.each do |a|
-          map.add(:url => event_category_path(a))
-        end
-      end
-    end
-    if @cms_config['modules']['events']
-      map.add(:url => events_path)
-      if !Event.first.blank?
-        Event.all.each do |a|
-          map.add(:url => event_path(a))
-        end
-      end
-      if !EventCategory.first.blank?
-        EventCategory.all.each do |a|
-          map.add(:url => event_category_path(a))
-        end
-      end
-    end
-    if @cms_config['modules']['documents']
-      map.add(:url => documents_path)
-    end
-    if @cms_config['modules']['galleries']
-      map.add(:url => galleries_path)
-      if !Gallery.first.blank?
-        Gallery.all.each do |a|
-          map.add(:url => gallery_path(a))
-        end
-      end
-    end
-    if @cms_config['modules']['links']
-      map.add(:url => links_path)
-      if !Link.first.blank?
-        Link.all.each do |a|
-          map.add(:url => link_path(a))
-        end
-      end
-      if !LinkCategory.first.blank?
-        LinkCategory.all.each do |a|
-          map.add(:url => link_category_path(a))
-        end
-      end
-    end
-    File.open("#{RAILS_ROOT}/sitemap.xml", 'w') {|f| f.write(map.render)}
   end
     
   def step_1
