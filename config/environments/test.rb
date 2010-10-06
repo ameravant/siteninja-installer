@@ -1,4 +1,7 @@
 # Settings specified here will take precedence over those in config/environment.rb
+# The only way I could guarantee test database would have seed data in it
+# John 2010-09-17
+system("cp -f #{RAILS_ROOT}/db/development.sqlite3 #{RAILS_ROOT}/db/test.sqlite3")
 
 # The test environment is used exclusively to run your application's
 # test suite.  You never need to work with it otherwise.  Remember that
