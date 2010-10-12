@@ -18,11 +18,12 @@ class SetupController < ApplicationController
       File.open("#{RAILS_ROOT}/public/robots.txt", 'w') {|f| f.write("Sitemap: http://#{@cms_config["website"]["domain"]}/sitemap.xml")}      
       # Can't call this b/c it is under admin need to figure out way to call this 
       #redirect_to generate_sitemap_admin_setting_path
+      redirect_to("/")
     end
     @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     unless params[:step]
       params[:step] = "0"
-    end    
+    end
   end
     
   def step_1
