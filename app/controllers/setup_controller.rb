@@ -11,6 +11,7 @@ class SetupController < ApplicationController
       plugins = "[ :all, " + Plugin.all.reject { |c| }.map { |c| ":#{c.url.gsub(/\S*\/(\S*)(.git)/, '\1')}" }.join(", ") + " ]"
       @cms_config['site_settings']['plugin_urls'] = plugin_urls
       @cms_config['site_settings']['plugins'] = plugins
+      @cms_config['website']['deployed'] = Time.now.strftime("%A, %B %d, %Y at %I:%M %p %Z")
       File.open("#{path}/shared/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
 
       # Run After Deploy Rake
@@ -35,6 +36,7 @@ class SetupController < ApplicationController
     @setup['website']['domain'] = params[:setup][:website_domain]
     @setup['website']['template'] = params[:setup][:website_template]
     @setup['site_settings']['s3_bucket_name'] = "#{params[:setup][:website_domain].gsub(/\W+/, ' ').strip.gsub(/\ +/, '-')}"[0..252].gsub(/-$/, '')
+    @setup['website']['deployed'] = Time.now.strftime("%A, %B %d, %Y at %I:%M %p %Z")
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rm public/index.html")
     system("rake rails:template LOCATION=step_1.rb")
@@ -67,6 +69,7 @@ class SetupController < ApplicationController
     File.open("#{RAILS_ROOT}/config/cms.yml", 'w') { |f| YAML.dump(@setup, f) }
     system("rake rails:template LOCATION=step_3.rb")
     @setup['site_settings']['show_installer'] = false
+    @setup['website']['deployed'] = Time.now.strftime("%A, %B %d, %Y at %I:%M %p %Z")
     system("touch tmp/restart.txt")
     system("mongrel_rails restart")
     redirect_to "/"
