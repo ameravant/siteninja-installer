@@ -4,8 +4,7 @@ run "script/plugin install git://github.com/mislav/will_paginate.git"
 # Add Spawn Plugin for background processes
 run "script/plugin install git://github.com/tra/spawn.git"
 
-# run "exec ssh-agent bash"
-# run "ssh-add ~/.ssh/id_rsa"
+
 
 # Determine directory of application (/data/application_name/current)
 path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
@@ -17,9 +16,17 @@ inside("#{path}/current") do
   run "mkdir #{path}/current/vendor/plugins/siteninja"
 end  
 
-# Clone modules and plugins
+# now that we've removed the default cms.yml and replaced it with application's, load it
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 
+# if site is site-ninja.com, create a symbolic link to icons
+if setup['website']['domain'] == "site-ninja.com"
+  inside("#{path}/current") do
+    run "ln -s /data/siteninjasetup/shared/icons/ #{path}/current/images/icons"
+  end
+end
+
+# Clone modules and plugins
 if setup['site_settings']['plugins']
   plugin_urls = setup['site_settings']['plugin_urls'].gsub("'", "")
   for plugin_url in plugin_urls.split(", ")

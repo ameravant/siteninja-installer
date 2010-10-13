@@ -19,7 +19,8 @@ class SetupController < ApplicationController
       File.open("#{RAILS_ROOT}/public/robots.txt", 'w') {|f| f.write("Sitemap: http://#{@cms_config["website"]["domain"]}/sitemap.xml")}      
       # Can't call this b/c it is under admin need to figure out way to call this 
       #redirect_to generate_sitemap_admin_setting_path
-      redirect_to("/")
+      self.request.subdomains[0].empty? ? domain = self.request.domain : domain = self.request.subdomains[0] + "." + self.request.domain
+      redirect_to("http://www.site-ninja.com/websites?domain=" + @cms_config['website']['domain'] + "&redirect=" + domain)
     end
     @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     unless params[:step]
@@ -72,7 +73,8 @@ class SetupController < ApplicationController
     @setup['website']['deployed'] = Time.now.strftime("%A, %B %d, %Y at %I:%M %p %Z")
     system("touch tmp/restart.txt")
     system("mongrel_rails restart")
-    redirect_to "/"
+    self.request.subdomains[0].empty? ? domain = self.request.domain : domain = self.request.subdomains[0] + "." + self.request.domain
+    redirect_to("http://www.site-ninja.com/websites?domain=" + @cms_config['website']['domain'] + "&redirect=" + domain + "&first_deployed=true")
   end
   
   def cms_config
