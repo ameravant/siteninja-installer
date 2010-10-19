@@ -82,7 +82,7 @@ class SetupController < ApplicationController
     else
       domain = self.request.domain
     end
-    redirect_to("http://www.site-ninja.com/websites?domain=" + @cms_config['website']['domain'] + "&redirect=" + domain + "&first_deployed=true")
+    redirect_to("http://www.site-ninja.com/websites?domain=" + @setup['website']['domain'] + "&redirect=" + domain + "&first_deployed=true")
   end
   
   def cms_config
