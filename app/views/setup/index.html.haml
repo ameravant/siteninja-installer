@@ -2,7 +2,7 @@
   - when params[:step] == "0"
     - @title = "Introduction"
     %h1 Introduction
-    %p Welcome to the Site Ninja Installation. This simple tool will guide you through the deployment of a new Site Ninja site.
+    %p Welcome to the SiteNinja Installation. This simple tool will guide you through the deployment of a new SiteNinja site.
     %span#spinner Starting installation...
     = link_to("Start", "/setup?step=1", :class => "next", :id => 'submit', :onclick => "document.getElementById('spinner').style.display='block';document.getElementById('submit').style.display='none'")
   - when params[:step] == "1"

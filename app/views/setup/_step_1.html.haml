@@ -24,5 +24,5 @@
           = radio_button_tag 'setup[website_template]', template
       =  #select(:template, :id, templates.map{|template| [template, template] })
     %br
-    %span#spinner Installing Site Ninja Base CMS, please wait...
+    %span#spinner Installing SiteNinja Base CMS, please wait...
     = submit_tag("Step 2", :class => "next", :id => "submit", :onclick => "document.getElementById('spinner').style.display='block';document.getElementById('submit').style.display='none'")

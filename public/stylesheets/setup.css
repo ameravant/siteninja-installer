@@ -12,7 +12,8 @@ p { color: #607285; font-size: 1.2em; margin: 20px 0 30px; font-family: Georgia,
 
 body { font-size: 16px; font-family: Tahoma, Arial, Sans-Serif; background: #e5eff9; color: #333; margin: 0; }
   #header { background: #fff url(../images/header-bg.gif) repeat-x bottom; border-bottom: 1px solid #6f9fd0; }
-    #logo { width: 850px; margin: 0 auto; padding: 20px; }
+    #logo { width: 850px; margin: 0 auto; padding: 15px 5px 10px;}
+      #logo img { margin-left: -50px; }
   #content-wrapper { border-top: 1px solid #fff; }
     #content { width: 850px; margin: 0 auto; padding: 0 20px; }
   fieldset { border: 0; margin: 0; padding: 0; }
@@ -27,11 +28,11 @@ body { font-size: 16px; font-family: Tahoma, Arial, Sans-Serif; background: #e5e
   fieldset div { margin: 0 0 10px 0; clear: both; height: 40px; }
   #steps-wrapper { background: #1d4267; color: #6F9FD0; height: 80px; border-top: #0a253f 1px solid; border-bottom: 1px solid #6f9fd0;}
   #steps { list-style: none; margin: 0; padding: 0; clear: both; width: 850px; margin: 0 auto; color: ; }
-    #steps li { display: block; float: left; margin: 10px 20px 20px 0; width: 190px; text-align: lfet; font-size: 1.4em;  font-weight: bold; }
+    #steps li { display: block; float: left; margin: 14px 20px 20px 0; width: 190px; text-align: lfet; font-size: 1.4em;  font-weight: bold; }
     #steps .small { font-size: .6em; }
       #steps a { text-decoration: none; color: #c8e3ff; }
       #steps a:hover { color: #fff; }
-      #steps a.selected { color: #9be42f; }
+      #steps a.selected { color: #fdc216; }
     #steps .deploy { }
 #spinner { background: url(/images/spinner.gif) no-repeat left center; padding: 0 0 0 30px; color: #607285; display: none; line-height: 50px; }
 #copyright { font-size: .8em; color: #808e9d; width: 850px; margin: 0 auto; padding: 40px 0; }

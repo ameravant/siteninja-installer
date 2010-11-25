@@ -77,12 +77,14 @@ class SetupController < ApplicationController
     @setup['website']['deployed'] = Time.now.strftime("%A, %B %d, %Y at %I:%M %p %Z")
     system("touch tmp/restart.txt")
     system("mongrel_rails restart")
-    if self.request.subdomains[0]
-      domain = self.request.subdomains[0] + "." + self.request.domain
-    else
-      domain = self.request.domain
+    if @setup['website']['environment'] == "production"
+      if self.request.subdomains[0]
+        domain = self.request.subdomains[0] + "." + self.request.domain
+      else
+        domain = self.request.domain
+      end
+      redirect_to("http://www.site-ninja.com/websites?domain=" + @cms_config['website']['domain'] + "&redirect=" + domain + "&first_deployed=true")
     end
-    redirect_to("http://www.site-ninja.com/websites?domain=" + @cms_config['website']['domain'] + "&redirect=" + domain + "&first_deployed=true")
   end
   
   def cms_config

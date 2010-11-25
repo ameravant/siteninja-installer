@@ -18,6 +18,6 @@
     %div
       = label_tag 'db[production_password]', "Database Password"
       = text_field_tag 'db[production_password]', @db['production']['password']
-    %p This is the final step of the set up process. Once you click "Finish", setup files will be deleted and Site Ninja will be installed. Once this is completed, be sure to visit the "Settings" area of admin to finish customizing the site.
+    %p This is the final step of the set up process. Once you click "Finish", setup files will be deleted and SiteNinja will be installed. Once this is completed, be sure to visit the "Settings" area of admin to finish customizing the site.
     %span#spinner Finalizing installation, removing setup files, and restarting server.
     = submit_tag("Finish", :class => "next", :id => "submit", :onclick => "document.getElementById('spinner').style.display='block';document.getElementById('submit').style.display='none'")

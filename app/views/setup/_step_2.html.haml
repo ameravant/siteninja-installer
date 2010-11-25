@@ -33,5 +33,5 @@
       = check_box_tag 'setup[features_feature_box]', @setup['features']['feature_box'], @setup['features']['feature_box']
       = label_tag 'setup[features_feature_box]', "Feature Box"
       %br
-    %span#spinner Installing selected Site Ninja modules, please wait...
+    %span#spinner Installing selected SiteNinja modules, please wait...
     = submit_tag("Step 3", :class => "next", :id => "submit", :onclick => "document.getElementById('spinner').style.display='block';document.getElementById('submit').style.display='none'")
