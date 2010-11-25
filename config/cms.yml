@@ -47,3 +47,5 @@ site_settings:
   sendgrid_password: 1234Mail
   show_installer: true
   private: true
+  provider: SiteNinja CMS
+  provider_link: http://www.site-ninja.com
