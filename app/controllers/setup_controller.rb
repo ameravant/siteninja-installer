@@ -12,10 +12,10 @@ class SetupController < ApplicationController
       @cms_config['site_settings']['plugin_urls'] = plugin_urls
       @cms_config['site_settings']['plugins'] = plugins
       @cms_config['website']['deployed'] = Time.now.strftime("%A, %B %d, %Y at %I:%M %p %Z")
-      unless @cms_config['site_settings']['feature_box_border']
+      unless @cms_config['site_settings']['feature_box_border'] or @cms_config['site_settings']['feature_box_border'] == ""
         @cms_config['site_settings']['feature_box_border'] = "4px solid #e6e6e6"
       end
-      unless @cms_config['site_settings']['feature_box_background_color']
+      unless @cms_config['site_settings']['feature_box_background_color'] or @cms_config['site_settings']['feature_box_background_color'] == ""
         @cms_config['site_settings']['feature_box_background_color'] = "#ccc"
       end
       File.open("#{path}/shared/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
