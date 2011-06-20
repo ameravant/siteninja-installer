@@ -19,10 +19,14 @@ end
 # now that we've removed the default cms.yml and replaced it with application's, load it
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 
+inside("#{path}/current") do
+  run "ln -s /data/siteninja/shared/plugin_assets/siteninja_core/images/icons/ #{path}/current/public/plugin_assets/siteninja_core/images/icons" 
+end
+
 # if site is site-ninja.com, create a symbolic link to icons
 if setup['website']['domain'] == "site-ninja.com"
   inside("#{path}/current") do
-    run "ln -s /data/siteninjasetup/shared/icons/ #{path}/current/images/icons"
+    run "ln -s /data/siteninja/shared/plugin_assets/siteninja_core/images/icons/ #{path}/current/public/plugin_assets/siteninja_core/images/icons"
   end
 end
 
