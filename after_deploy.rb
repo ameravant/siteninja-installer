@@ -1,5 +1,5 @@
 # Add will_paginate plugin
-run "script/plugin install git://github.com/mislav/will_paginate.git"
+#run "script/plugin install git://github.com/mislav/will_paginate.git"
 
 # Add Spawn Plugin for background processes
 run "script/plugin install git://github.com/tra/spawn.git"
