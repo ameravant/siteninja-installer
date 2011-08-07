@@ -7,7 +7,7 @@ class SetupController < ApplicationController
       # Generate plugins and plugin_urls for cms.yml
       path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
       @cms_config = YAML::load_file("#{path}/shared/config/cms.yml")
-      if Plugin
+      if ActiveRecord::Base.connection.tables.include?("plugins")
         plugin_urls = "'" + Plugin.all.reject { |c| }.map { |c| "#{c.url}" }.join(", ") + "'"
         plugins = "[ :all, " + Plugin.all.reject { |c| }.map { |c| ":#{c.url.gsub(/\S*\/(\S*)(.git)/, '\1')}" }.join(", ") + " ]"
       else
