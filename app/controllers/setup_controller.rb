@@ -7,8 +7,13 @@ class SetupController < ApplicationController
       # Generate plugins and plugin_urls for cms.yml
       path = RAILS_ROOT.gsub(/(\/data\/)(\S*)\/releases\S*/, '\1\2')
       @cms_config = YAML::load_file("#{path}/shared/config/cms.yml")
-      plugin_urls = "'" + Plugin.all.reject { |c| }.map { |c| "#{c.url}" }.join(", ") + "'"
-      plugins = "[ :all, " + Plugin.all.reject { |c| }.map { |c| ":#{c.url.gsub(/\S*\/(\S*)(.git)/, '\1')}" }.join(", ") + " ]"
+      if Plugin
+        plugin_urls = "'" + Plugin.all.reject { |c| }.map { |c| "#{c.url}" }.join(", ") + "'"
+        plugins = "[ :all, " + Plugin.all.reject { |c| }.map { |c| ":#{c.url.gsub(/\S*\/(\S*)(.git)/, '\1')}" }.join(", ") + " ]"
+      else
+        plugin_urls = "'git@github.com:ameravant/siteninja_core.git, git@github.com:ameravant/siteninja_blogs.git, git@github.com:ameravant/siteninja_documents.git, git@github.com:ameravant/siteninja_events.git, git@github.com:ameravant/siteninja_galleries.git, git@github.com:ameravant/siteninja_links.git, git@github.com:ameravant/siteninja_newsletters.git, git@github.com:ameravant/siteninja_store.git, git@github.com:ameravant/siteninja_pages.git'"
+        plugins = "[ :all, :siteninja_core, :siteninja_blogs, :siteninja_documents, :siteninja_events, :siteninja_galleries, :siteninja_links, :siteninja_newsletters, :siteninja_store, :siteninja_pages ]"
+      end
       @cms_config['site_settings']['plugin_urls'] = plugin_urls
       @cms_config['site_settings']['plugins'] = plugins
       @cms_config['website']['deployed'] = Time.now.strftime("%A, %B %d, %Y at %I:%M %p %Z")
@@ -25,6 +30,7 @@ class SetupController < ApplicationController
       File.open("#{RAILS_ROOT}/public/robots.txt", 'w') {|f| f.write("Sitemap: http://#{@cms_config["website"]["domain"]}/sitemap.xml")}      
       # Can't call this b/c it is under admin need to figure out way to call this 
       #redirect_to generate_sitemap_admin_setting_path
+      
       if self.request.subdomains[0]
         domain = self.request.subdomains[0] + "." + self.request.domain
       else
