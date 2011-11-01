@@ -33,7 +33,7 @@ end
 # Clone modules and plugins
 if setup['site_settings']['plugins']
   if setup['modules']['multitenant']
-    plugins = "git@github.com:ameravant/siteninja_core.git, git@github.com:ameravant/siteninja_blogs.git, git@github.com:ameravant/siteninja_documents.git, git@github.com:ameravant/siteninja_events.git, git@github.com:ameravant/siteninja_galleries.git, git@github.com:ameravant/siteninja_links.git, git@github.com:ameravant/siteninja_newsletters.git, git@github.com:ameravant/siteninja_store.git, git@github.com:ameravant/siteninja_pages.git, git@github.com:ameravant/siteninja_multitenant.git"
+    plugin_urls = "git@github.com:ameravant/siteninja_core.git, git@github.com:ameravant/siteninja_blogs.git, git@github.com:ameravant/siteninja_documents.git, git@github.com:ameravant/siteninja_events.git, git@github.com:ameravant/siteninja_galleries.git, git@github.com:ameravant/siteninja_links.git, git@github.com:ameravant/siteninja_newsletters.git, git@github.com:ameravant/siteninja_store.git, git@github.com:ameravant/siteninja_pages.git, git@github.com:ameravant/siteninja_multitenant.git"
   else
     plugin_urls = setup['site_settings']['plugin_urls'].gsub("'", "")
   end
