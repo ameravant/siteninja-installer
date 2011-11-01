@@ -14,7 +14,7 @@ inside("#{path}/current") do
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
   # make siteninja plugin directory
   run "mkdir #{path}/current/vendor/plugins/siteninja"
-end  
+end
 
 # now that we've removed the default cms.yml and replaced it with application's, load it
 setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
@@ -38,7 +38,11 @@ if setup['site_settings']['plugins']
       run "git clone #{plugin_url}"
     end
   end
-  plugins = setup['site_settings']['plugins'].gsub("[ ", "").gsub(" ]", "").gsub(":", "").gsub("all, ", "")
+  if setup['site_settings']['multitenant']
+    plugins = "git@github.com:ameravant/siteninja_core.git, git@github.com:ameravant/siteninja_blogs.git, git@github.com:ameravant/siteninja_documents.git, git@github.com:ameravant/siteninja_events.git, git@github.com:ameravant/siteninja_galleries.git, git@github.com:ameravant/siteninja_links.git, git@github.com:ameravant/siteninja_newsletters.git, git@github.com:ameravant/siteninja_store.git, git@github.com:ameravant/siteninja_pages.git, git@github.com:ameravant/siteninja_multitenant.git"
+  else
+    plugins = setup['site_settings']['plugins'].gsub("[ ", "").gsub(" ]", "").gsub(":", "").gsub("all, ", "")
+  end
   for plugin in plugins.split(", ")
     inside("vendor/plugins/siteninja/#{plugin}") do
       run "git pull origin master"
