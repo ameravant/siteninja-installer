@@ -12,6 +12,7 @@ inside("#{path}/current") do
   # cms.yml must be persistent!
   run "rm #{path}/current/config/cms.yml"
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
+  run "ln -s #{path}/shared/config/domains #{path}/current/config/domains"
   # make siteninja plugin directory
   run "mkdir #{path}/current/vendor/plugins/siteninja"
 end
