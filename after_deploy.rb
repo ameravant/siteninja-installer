@@ -22,6 +22,7 @@ setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
 
 inside("#{path}/current") do
   run "ln -s /data/siteninja/shared/plugin_assets/siteninja_core/images/icons/ #{path}/current/public/plugin_assets/siteninja_core/images/icons" 
+  run "rm #{path}/current/public/robots.txt"
 end
 
 # if site is site-ninja.com, create a symbolic link to icons
