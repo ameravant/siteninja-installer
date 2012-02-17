@@ -78,6 +78,7 @@ end
 # Migrate database and restart app.
 run "script/generate plugin_migration"
 run "rake db:migrate"
+run "rake db:update"
 run "touch tmp/restart.txt"
 
 # Remove installer-related files
