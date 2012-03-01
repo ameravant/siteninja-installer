@@ -26,8 +26,7 @@ class SetupController < ApplicationController
       File.open("#{path}/shared/config/cms.yml", 'w') { |f| YAML.dump(@cms_config, f) }
 
       # Run After Deploy Rake
-      system("rake rails:template LOCATION=after_deploy.rb")
-      File.open("#{RAILS_ROOT}/public/robots.txt", 'w') {|f| f.write("Sitemap: http://#{@cms_config["website"]["domain"]}/sitemap.xml")}      
+      system("rake rails:template LOCATION=after_deploy.rb")     
       # Can't call this b/c it is under admin need to figure out way to call this 
       #redirect_to generate_sitemap_admin_setting_path
       
