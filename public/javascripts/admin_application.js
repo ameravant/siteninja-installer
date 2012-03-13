@@ -44,14 +44,6 @@ jQuery(document).ready(function(){
   setWidth();
   });
 function setWidth() {
-  if(jQuery(window).width() <= 699 || screen.width <= 699) {
-    jQuery('body').attr('class','small-screen jsenabled')
-  }
-  else if(jQuery(window).width() <= 1024 || screen.width <= 1024){
-    jQuery('body').attr('class','medium-screen jsenabled')
-  }
-  else{
-    jQuery('body').attr('class','full-screen jsenabled')
-  }
+    jQuery('body').addClass('jsenabled')
     jQuery('#top-margin').css('height', jQuery('#admin-menu').height());
   }
