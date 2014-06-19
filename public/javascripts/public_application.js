@@ -39,13 +39,16 @@ $(document).ready(function(){
   });
 function setWidth() {
   if($(window).width() <= 699 || screen.width <= 699) {
-    $('body').attr('class','small-screen jsenabled')
+    $('body').addClass('jsenabled')
+    $('body').addClass('small-screen')
   }
   else if($(window).width() <= 1024 || screen.width <= 1024){
-    $('body').attr('class','medium-screen jsenabled')
+    $('body').addClass('jsenabled')
+    $('body').addClass('medium-screen')
   }
   else{
-    $('body').attr('class','full-screen jsenabled')
+    $('body').addClass('jsenabled')
+    $('body').addClass('full-screen')
   }
     $('#top-margin').css('height', $('#admin-menu').height());
   }
