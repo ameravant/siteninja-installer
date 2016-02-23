@@ -35,7 +35,9 @@ class SetupController < ApplicationController
       else
         domain = self.request.domain
       end
-      #redirect_to("http://www.site-ninja.com/websites?domain=" + @cms_config['website']['domain'] + "&redirect=" + domain)
+	  system("touch tmp/restart.txt")
+      redirect_to("/")
+	  
     end
     @setup = YAML::load_file("#{RAILS_ROOT}/config/cms.yml")
     unless params[:step]
@@ -94,7 +96,8 @@ class SetupController < ApplicationController
       else
         domain = self.request.domain
       end
-      #redirect_to("http://www.site-ninja.com/websites?domain=" + @cms_config['website']['domain'] + "&redirect=" + domain + "&first_deployed=true")
+	  system("touch tmp/restart.txt")
+      redirect_to("/")
     end
   end
   
