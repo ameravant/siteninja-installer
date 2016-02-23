@@ -12,7 +12,7 @@ inside("#{path}/current") do
   # cms.yml must be persistent!
   run "rm #{path}/current/config/cms.yml"
   run "ln -s #{path}/shared/config/cms.yml #{path}/current/config/"
-  run "ln -s #{path}/shared/config/domains #{path}/current/config/domains"
+  run "ln -s #{path}/shared/config/domains #{path}/current/config/"
   # make siteninja plugin directory
   run "mkdir #{path}/current/vendor/plugins/siteninja"
 end
@@ -73,6 +73,9 @@ inside('vendor/plugins/siteninja/siteninja_setup') do
   run "mv initializers/* #{RAILS_ROOT}/config/initializers"
   run "mv lib/* #{RAILS_ROOT}/lib"
   run "mv metal #{RAILS_ROOT}/app/metal"
+  run "mkdir lib/tasks"
+  run "cp vendor/plugins/siteninja/siteninja_core/lib/tasks/update:rb"
+  run "cp vendor/plugins/siteninja/siteninja_multitenant/lib/tasks/populate_domainify_min:rb"
 end
 
 # Migrate database and restart app.
